@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,22 +32,28 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>indicative</code>|31234</td>
+  <td><code>indicative</code></td>
+  <td>31234</td>
 </tr>
 <tr>
-  <td><code>participle</code>|13306</td>
+  <td><code>participle</code></td>
+  <td>13306</td>
 </tr>
 <tr>
-  <td><code>infinitive</code>|4570</td>
+  <td><code>infinitive</code></td>
+  <td>4570</td>
 </tr>
 <tr>
-  <td><code>imperative</code>|3754</td>
+  <td><code>imperative</code></td>
+  <td>3754</td>
 </tr>
 <tr>
-  <td><code>subjunctive</code>|3712</td>
+  <td><code>subjunctive</code></td>
+  <td>3712</td>
 </tr>
 <tr>
-  <td><code>optative</code>|138</td>
+  <td><code>optative</code></td>
+  <td>138</td>
 </tr>
 </tbody>
 </table>

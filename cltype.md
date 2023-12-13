@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,13 +32,16 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>VerbElided</code>|2100</td>
+  <td><code>VerbElided</code></td>
+  <td>2100</td>
 </tr>
 <tr>
-  <td><code>Verbless</code>|1922</td>
+  <td><code>Verbless</code></td>
+  <td>1922</td>
 </tr>
 <tr>
-  <td><code>Minor</code>|1664</td>
+  <td><code>Minor</code></td>
+  <td>1664</td>
 </tr>
 </tbody>
 </table>

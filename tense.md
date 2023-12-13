@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,22 +32,28 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>aorist</code>|23606</td>
+  <td><code>aorist</code></td>
+  <td>23606</td>
 </tr>
 <tr>
-  <td><code>present</code>|23158</td>
+  <td><code>present</code></td>
+  <td>23158</td>
 </tr>
 <tr>
-  <td><code>imperfect</code>|3378</td>
+  <td><code>imperfect</code></td>
+  <td>3378</td>
 </tr>
 <tr>
-  <td><code>future</code>|3252</td>
+  <td><code>future</code></td>
+  <td>3252</td>
 </tr>
 <tr>
-  <td><code>perfect</code>|3144</td>
+  <td><code>perfect</code></td>
+  <td>3144</td>
 </tr>
 <tr>
-  <td><code>pluperfect</code>|176</td>
+  <td><code>pluperfect</code></td>
+  <td>176</td>
 </tr>
 </tbody>
 </table>

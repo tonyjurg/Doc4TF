@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>integer</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A></td>
+  <td><code>integer</code></td>
+  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,34 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>1</code>|12403</td>
+  <td><code>1</code></td>
+  <td>12403</td>
 </tr>
 <tr>
-  <td><code>2</code>|10434</td>
+  <td><code>2</code></td>
+  <td>10434</td>
 </tr>
 <tr>
-  <td><code>3</code>|9155</td>
+  <td><code>3</code></td>
+  <td>9155</td>
 </tr>
 <tr>
-  <td><code>4</code>|9136</td>
+  <td><code>4</code></td>
+  <td>9136</td>
 </tr>
 <tr>
-  <td><code>5</code>|8307</td>
+  <td><code>5</code></td>
+  <td>8307</td>
 </tr>
 <tr>
-  <td><code>6</code>|7157</td>
+  <td><code>6</code></td>
+  <td>7157</td>
 </tr>
 <tr>
-  <td><code>9</code>|6759</td>
+  <td><code>9</code></td>
+  <td>6759</td>
 </tr>
 <tr>
-  <td><code>7</code>|6685</td>
+  <td><code>7</code></td>
+  <td>6685</td>
 </tr>
 <tr>
-  <td><code>11</code>|6617</td>
+  <td><code>11</code></td>
+  <td>6617</td>
 </tr>
 <tr>
-  <td><code>12</code>|6571</td>
+  <td><code>12</code></td>
+  <td>6571</td>
 </tr>
 </tbody>
 </table>

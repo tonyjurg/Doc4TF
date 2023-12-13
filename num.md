@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>integer</code>| <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
+  <td><code>integer</code></td>
+  <td><A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,34 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>1</code>|8186</td>
+  <td><code>1</code></td>
+  <td>8186</td>
 </tr>
 <tr>
-  <td><code>2</code>|8181</td>
+  <td><code>2</code></td>
+  <td>8181</td>
 </tr>
 <tr>
-  <td><code>3</code>|8178</td>
+  <td><code>3</code></td>
+  <td>8178</td>
 </tr>
 <tr>
-  <td><code>4</code>|8169</td>
+  <td><code>4</code></td>
+  <td>8169</td>
 </tr>
 <tr>
-  <td><code>5</code>|8156</td>
+  <td><code>5</code></td>
+  <td>8156</td>
 </tr>
 <tr>
-  <td><code>6</code>|8120</td>
+  <td><code>6</code></td>
+  <td>8120</td>
 </tr>
 <tr>
-  <td><code>7</code>|8040</td>
+  <td><code>7</code></td>
+  <td>8040</td>
 </tr>
 <tr>
-  <td><code>8</code>|7877</td>
+  <td><code>8</code></td>
+  <td>7877</td>
 </tr>
 <tr>
-  <td><code>9</code>|7679</td>
+  <td><code>9</code></td>
+  <td>7679</td>
 </tr>
 <tr>
-  <td><code>10</code>|7402</td>
+  <td><code>10</code></td>
+  <td>7402</td>
 </tr>
 </tbody>
 </table>

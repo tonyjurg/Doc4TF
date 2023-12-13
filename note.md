@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,7 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>discontinuous discourse</code>|2</td>
+  <td><code>discontinuous discourse</code></td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>

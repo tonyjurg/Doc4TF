@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,34 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>Luke</code>|38054</td>
+  <td><code>Luke</code></td>
+  <td>38054</td>
 </tr>
 <tr>
-  <td><code>Matthew</code>|35292</td>
+  <td><code>Matthew</code></td>
+  <td>35292</td>
 </tr>
 <tr>
-  <td><code>Acts</code>|34574</td>
+  <td><code>Acts</code></td>
+  <td>34574</td>
 </tr>
 <tr>
-  <td><code>John</code>|30536</td>
+  <td><code>John</code></td>
+  <td>30536</td>
 </tr>
 <tr>
-  <td><code>Mark</code>|22386</td>
+  <td><code>Mark</code></td>
+  <td>22386</td>
 </tr>
 <tr>
-  <td><code>Revelation</code>|17798</td>
+  <td><code>Revelation</code></td>
+  <td>17798</td>
 </tr>
 <tr>
-  <td><code>1Corinthians</code>|13504</td>
+  <td><code>1Corinthians</code></td>
+  <td>13504</td>
 </tr>
 <tr>
-  <td><code>Romans</code>|13079</td>
+  <td><code>Romans</code></td>
+  <td>13079</td>
 </tr>
 <tr>
-  <td><code>Hebrews</code>|9204</td>
+  <td><code>Hebrews</code></td>
+  <td>9204</td>
 </tr>
 <tr>
-  <td><code>2Corinthians</code>|8367</td>
+  <td><code>2Corinthians</code></td>
+  <td>8367</td>
 </tr>
 </tbody>
 </table>

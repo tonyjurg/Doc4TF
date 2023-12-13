@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,34 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>v</code>|50344</td>
+  <td><code>v</code></td>
+  <td>50344</td>
 </tr>
 <tr>
-  <td><code>adv</code>|43154</td>
+  <td><code>adv</code></td>
+  <td>43154</td>
 </tr>
 <tr>
-  <td><code>o</code>|26988</td>
+  <td><code>o</code></td>
+  <td>26988</td>
 </tr>
 <tr>
-  <td><code>s</code>|22336</td>
+  <td><code>s</code></td>
+  <td>22336</td>
 </tr>
 <tr>
-  <td><code>p</code>|7348</td>
+  <td><code>p</code></td>
+  <td>7348</td>
 </tr>
 <tr>
-  <td><code>io</code>|5316</td>
+  <td><code>io</code></td>
+  <td>5316</td>
 </tr>
 <tr>
-  <td><code>vc</code>|5186</td>
+  <td><code>vc</code></td>
+  <td>5186</td>
 </tr>
 <tr>
-  <td><code>apposition</code>|4878</td>
+  <td><code>apposition</code></td>
+  <td>4878</td>
 </tr>
 <tr>
-  <td><code>aux</code>|2112</td>
+  <td><code>aux</code></td>
+  <td>2112</td>
 </tr>
 <tr>
-  <td><code>o2</code>|718</td>
+  <td><code>o2</code></td>
+  <td>718</td>
 </tr>
 </tbody>
 </table>

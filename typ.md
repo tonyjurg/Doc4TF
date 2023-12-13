@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,25 +32,32 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>NP</code>|61822</td>
+  <td><code>NP</code></td>
+  <td>61822</td>
 </tr>
 <tr>
-  <td><code>PP</code>|22338</td>
+  <td><code>PP</code></td>
+  <td>22338</td>
 </tr>
 <tr>
-  <td><code>conjuncted</code>|16150</td>
+  <td><code>conjuncted</code></td>
+  <td>16150</td>
 </tr>
 <tr>
-  <td><code>apposition</code>|1778</td>
+  <td><code>apposition</code></td>
+  <td>1778</td>
 </tr>
 <tr>
-  <td><code>VP</code>|414</td>
+  <td><code>VP</code></td>
+  <td>414</td>
 </tr>
 <tr>
-  <td><code>AdjP</code>|336</td>
+  <td><code>AdjP</code></td>
+  <td>336</td>
 </tr>
 <tr>
-  <td><code>AdvP</code>|332</td>
+  <td><code>AdvP</code></td>
+  <td>332</td>
 </tr>
 </tbody>
 </table>

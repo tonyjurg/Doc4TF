@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>string</code>| <A HREF="featurebynodetype.md#book"><code>book</code></A></td>
+  <td><code>string</code></td>
+  <td><A HREF="featurebynodetype.md#book"><code>book</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,7 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>el</code>|27</td>
+  <td><code>el</code></td>
+  <td>27</td>
 </tr>
 </tbody>
 </table>

@@ -11,7 +11,8 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>integer</code>| <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A></td>
+  <td><code>integer</code></td>
+  <td><A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -31,34 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td><code>400010200010490</code>|2</td>
+  <td><code>400010200010490</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400010200120390</code>|2</td>
+  <td><code>400010200120390</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400010200130100</code>|2</td>
+  <td><code>400010200130100</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400010210050150</code>|2</td>
+  <td><code>400010210050150</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400010220140230</code>|2</td>
+  <td><code>400010220140230</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400010230010220</code>|2</td>
+  <td><code>400010230010220</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400020010140270</code>|2</td>
+  <td><code>400020010140270</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400020020010200</code>|2</td>
+  <td><code>400020020010200</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400020050010370</code>|2</td>
+  <td><code>400020050010370</code></td>
+  <td>2</td>
 </tr>
 <tr>
-  <td><code>400020050090290</code>|2</td>
+  <td><code>400020050090290</code></td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>
