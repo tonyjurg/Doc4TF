@@ -23,4 +23,40 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>109422</td>
+</tr>
+<tr>
+  <td>aorist</td>
+  <td>11803</td>
+</tr>
+<tr>
+  <td>present</td>
+  <td>11579</td>
+</tr>
+<tr>
+  <td>imperfect</td>
+  <td>1689</td>
+</tr>
+<tr>
+  <td>future</td>
+  <td>1626</td>
+</tr>
+<tr>
+  <td>perfect</td>
+  <td>1572</td>
+</tr>
+<tr>
+  <td>pluperfect</td>
+  <td>88</td>
+</tr>
+</tbody>
+</table>

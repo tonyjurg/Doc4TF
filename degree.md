@@ -23,4 +23,24 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>137266</td>
+</tr>
+<tr>
+  <td>comparative</td>
+  <td>313</td>
+</tr>
+<tr>
+  <td>superlative</td>
+  <td>200</td>
+</tr>
+</tbody>
+</table>

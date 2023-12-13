@@ -23,4 +23,52 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>52046</td>
+</tr>
+<tr>
+  <td>common</td>
+  <td>14186</td>
+</tr>
+<tr>
+  <td>personal</td>
+  <td>6040</td>
+</tr>
+<tr>
+  <td>proper</td>
+  <td>2192</td>
+</tr>
+<tr>
+  <td>relative</td>
+  <td>885</td>
+</tr>
+<tr>
+  <td>demonstrative</td>
+  <td>755</td>
+</tr>
+<tr>
+  <td>verb</td>
+  <td>436</td>
+</tr>
+<tr>
+  <td>noun</td>
+  <td>391</td>
+</tr>
+<tr>
+  <td>det</td>
+  <td>359</td>
+</tr>
+<tr>
+  <td>interrogative</td>
+  <td>341</td>
+</tr>
+</tbody>
+</table>

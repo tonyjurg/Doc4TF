@@ -23,4 +23,28 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>63804</td>
+</tr>
+<tr>
+  <td>masculine</td>
+  <td>41486</td>
+</tr>
+<tr>
+  <td>feminine</td>
+  <td>18736</td>
+</tr>
+<tr>
+  <td>neuter</td>
+  <td>13753</td>
+</tr>
+</tbody>
+</table>

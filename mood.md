@@ -23,4 +23,40 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>109422</td>
+</tr>
+<tr>
+  <td>indicative</td>
+  <td>15617</td>
+</tr>
+<tr>
+  <td>participle</td>
+  <td>6653</td>
+</tr>
+<tr>
+  <td>infinitive</td>
+  <td>2285</td>
+</tr>
+<tr>
+  <td>imperative</td>
+  <td>1877</td>
+</tr>
+<tr>
+  <td>subjunctive</td>
+  <td>1856</td>
+</tr>
+<tr>
+  <td>optative</td>
+  <td>69</td>
+</tr>
+</tbody>
+</table>

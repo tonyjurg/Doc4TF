@@ -23,4 +23,53 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>kai</td>
+  <td>8576</td>
+</tr>
+<tr>
+  <td>en</td>
+  <td>3152</td>
+</tr>
+<tr>
+  <td>o</td>
+  <td>3149</td>
+</tr>
+<tr>
+  <td>to</td>
+  <td>2885</td>
+</tr>
+<tr>
+  <td>de</td>
+  <td>2769</td>
+</tr>
+<tr>
+  <td>ton</td>
+  <td>2763</td>
+</tr>
+<tr>
+  <td>tou</td>
+  <td>2497</td>
+</tr>
+<tr>
+  <td>eis</td>
+  <td>1851</td>
+</tr>
+<tr>
+  <td>ten</td>
+  <td>1523</td>
+</tr>
+<tr>
+  <td>auton</td>
+  <td>1514</td>
+</tr>
+</tbody>
+</table>

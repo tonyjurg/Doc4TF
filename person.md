@@ -23,4 +23,28 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>118360</td>
+</tr>
+<tr>
+  <td>third</td>
+  <td>12747</td>
+</tr>
+<tr>
+  <td>second</td>
+  <td>3729</td>
+</tr>
+<tr>
+  <td>first</td>
+  <td>2943</td>
+</tr>
+</tbody>
+</table>

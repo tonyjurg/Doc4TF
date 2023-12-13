@@ -23,4 +23,28 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>102662</td>
+</tr>
+<tr>
+  <td>VerbElided</td>
+  <td>1009</td>
+</tr>
+<tr>
+  <td>Verbless</td>
+  <td>929</td>
+</tr>
+<tr>
+  <td>Minor</td>
+  <td>830</td>
+</tr>
+</tbody>
+</table>

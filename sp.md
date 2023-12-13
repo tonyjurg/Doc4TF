@@ -23,4 +23,53 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>noun</td>
+  <td>28455</td>
+</tr>
+<tr>
+  <td>verb</td>
+  <td>28357</td>
+</tr>
+<tr>
+  <td>det</td>
+  <td>19786</td>
+</tr>
+<tr>
+  <td>conj</td>
+  <td>18227</td>
+</tr>
+<tr>
+  <td>pron</td>
+  <td>16177</td>
+</tr>
+<tr>
+  <td>prep</td>
+  <td>10914</td>
+</tr>
+<tr>
+  <td>adj</td>
+  <td>8452</td>
+</tr>
+<tr>
+  <td>adv</td>
+  <td>6147</td>
+</tr>
+<tr>
+  <td>ptcl</td>
+  <td>773</td>
+</tr>
+<tr>
+  <td>num</td>
+  <td>476</td>
+</tr>
+</tbody>
+</table>

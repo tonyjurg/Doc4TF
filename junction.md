@@ -23,4 +23,20 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>103128</td>
+</tr>
+<tr>
+  <td>apposition</td>
+  <td>2302</td>
+</tr>
+</tbody>
+</table>

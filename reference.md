@@ -23,4 +23,53 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1CO 10:1!1</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!10</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!11</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!12</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!13</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!14</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!15</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!16</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!17</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>1CO 10:1!18</td>
+  <td>1</td>
+</tr>
+</tbody>
+</table>

@@ -23,4 +23,52 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>np</td>
+  <td>33710</td>
+</tr>
+<tr>
+  <td>cl</td>
+  <td>30857</td>
+</tr>
+<tr>
+  <td>cl*</td>
+  <td>16378</td>
+</tr>
+<tr>
+  <td>12760</td>
+</tr>
+<tr>
+  <td>pp</td>
+  <td>11169</td>
+</tr>
+<tr>
+  <td>vp</td>
+  <td>207</td>
+</tr>
+<tr>
+  <td>adjp</td>
+  <td>168</td>
+</tr>
+<tr>
+  <td>advp</td>
+  <td>166</td>
+</tr>
+<tr>
+  <td>adv</td>
+  <td>7</td>
+</tr>
+<tr>
+  <td>nump</td>
+  <td>7</td>
+</tr>
+</tbody>
+</table>

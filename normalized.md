@@ -23,4 +23,53 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>καί</td>
+  <td>8576</td>
+</tr>
+<tr>
+  <td>ὁ</td>
+  <td>2769</td>
+</tr>
+<tr>
+  <td>δέ</td>
+  <td>2764</td>
+</tr>
+<tr>
+  <td>ἐν</td>
+  <td>2684</td>
+</tr>
+<tr>
+  <td>τοῦ</td>
+  <td>2497</td>
+</tr>
+<tr>
+  <td>εἰς</td>
+  <td>1755</td>
+</tr>
+<tr>
+  <td>τό</td>
+  <td>1664</td>
+</tr>
+<tr>
+  <td>τόν</td>
+  <td>1562</td>
+</tr>
+<tr>
+  <td>τήν</td>
+  <td>1523</td>
+</tr>
+<tr>
+  <td>αὐτοῦ</td>
+  <td>1411</td>
+</tr>
+</tbody>
+</table>

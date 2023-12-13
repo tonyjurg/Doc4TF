@@ -23,4 +23,53 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Luke</td>
+  <td>21785</td>
+</tr>
+<tr>
+  <td>Matthew</td>
+  <td>20529</td>
+</tr>
+<tr>
+  <td>Acts</td>
+  <td>20307</td>
+</tr>
+<tr>
+  <td>John</td>
+  <td>17582</td>
+</tr>
+<tr>
+  <td>Mark</td>
+  <td>12695</td>
+</tr>
+<tr>
+  <td>Revelation</td>
+  <td>10726</td>
+</tr>
+<tr>
+  <td>Romans</td>
+  <td>8014</td>
+</tr>
+<tr>
+  <td>I_Corinthians</td>
+  <td>7798</td>
+</tr>
+<tr>
+  <td>Hebrews</td>
+  <td>5513</td>
+</tr>
+<tr>
+  <td>II_Corinthians</td>
+  <td>4992</td>
+</tr>
+</tbody>
+</table>

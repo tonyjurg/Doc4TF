@@ -23,4 +23,36 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>58261</td>
+</tr>
+<tr>
+  <td>nominative</td>
+  <td>24197</td>
+</tr>
+<tr>
+  <td>accusative</td>
+  <td>23031</td>
+</tr>
+<tr>
+  <td>genitive</td>
+  <td>19515</td>
+</tr>
+<tr>
+  <td>dative</td>
+  <td>12126</td>
+</tr>
+<tr>
+  <td>vocative</td>
+  <td>649</td>
+</tr>
+</tbody>
+</table>

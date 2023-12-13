@@ -23,4 +23,52 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>092004</td>
+  <td>26322</td>
+</tr>
+<tr>
+  <td>10487</td>
+</tr>
+<tr>
+  <td>089017</td>
+  <td>4370</td>
+</tr>
+<tr>
+  <td>093001</td>
+  <td>3672</td>
+</tr>
+<tr>
+  <td>033006</td>
+  <td>3225</td>
+</tr>
+<tr>
+  <td>012001</td>
+  <td>3000</td>
+</tr>
+<tr>
+  <td>089015</td>
+  <td>2810</td>
+</tr>
+<tr>
+  <td>092003</td>
+  <td>2444</td>
+</tr>
+<tr>
+  <td>069002</td>
+  <td>1857</td>
+</tr>
+<tr>
+  <td>092001</td>
+  <td>1846</td>
+</tr>
+</tbody>
+</table>

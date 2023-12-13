@@ -23,4 +23,52 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>69235</td>
+</tr>
+<tr>
+  <td>adv</td>
+  <td>16710</td>
+</tr>
+<tr>
+  <td>o</td>
+  <td>9329</td>
+</tr>
+<tr>
+  <td>s</td>
+  <td>6710</td>
+</tr>
+<tr>
+  <td>p</td>
+  <td>1770</td>
+</tr>
+<tr>
+  <td>io</td>
+  <td>702</td>
+</tr>
+<tr>
+  <td>v</td>
+  <td>405</td>
+</tr>
+<tr>
+  <td>aux</td>
+  <td>360</td>
+</tr>
+<tr>
+  <td>o2</td>
+  <td>171</td>
+</tr>
+<tr>
+  <td>topic</td>
+  <td>25</td>
+</tr>
+</tbody>
+</table>

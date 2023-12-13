@@ -23,4 +23,52 @@
 
 <h2>Values</h2>
 
-<p>TBA</p>
+<table>
+<thead>
+<tr>
+  <th>Value</th>
+  <th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Noun</td>
+  <td>28455</td>
+</tr>
+<tr>
+  <td>Verb</td>
+  <td>28357</td>
+</tr>
+<tr>
+  <td>Determiner</td>
+  <td>19786</td>
+</tr>
+<tr>
+  <td>Conjunction</td>
+  <td>18227</td>
+</tr>
+<tr>
+  <td>Pronoun</td>
+  <td>16177</td>
+</tr>
+<tr>
+  <td>Preposition</td>
+  <td>10914</td>
+</tr>
+<tr>
+  <td>Adjective</td>
+  <td>8452</td>
+</tr>
+<tr>
+  <td>6147</td>
+</tr>
+<tr>
+  <td>Particle</td>
+  <td>773</td>
+</tr>
+<tr>
+  <td>Numeral</td>
+  <td>476</td>
+</tr>
+</tbody>
+</table>
