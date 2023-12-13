@@ -1,12 +1,22 @@
-<pre><code># Feature: person
+<h1>Feature: person</h1>
 
-Data type | Available for node types |
---------  | -------- |
-string |  &lt;A HREF="featurebynodetype.md#word"&gt;word&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>string</td>
+  <td><A HREF="featurebynodetype.md#word">word</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-✅ Gramatical person of the verb (first, second, third)
+<p>✅ Gramatical person of the verb (first, second, third)</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>

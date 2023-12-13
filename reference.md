@@ -1,12 +1,22 @@
-<pre><code># Feature: reference
+<h1>Feature: reference</h1>
 
-Data type | Available for node types |
---------  | -------- |
-string |  &lt;A HREF="featurebynodetype.md#word"&gt;word&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>string</td>
+  <td><A HREF="featurebynodetype.md#word">word</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-✅ Reference (to nodeID in XML source data, not yet post-processes)
+<p>✅ Reference (to nodeID in XML source data, not yet post-processes)</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>

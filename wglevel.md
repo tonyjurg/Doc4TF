@@ -1,12 +1,22 @@
-<pre><code># Feature: wglevel
+<h1>Feature: wglevel</h1>
 
-Data type | Available for node types |
---------  | -------- |
-integer |  &lt;A HREF="featurebynodetype.md#wg"&gt;wg&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>integer</td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-🆗 Number of the parent wordgroups for a wordgroup
+<p>🆗 Number of the parent wordgroups for a wordgroup</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>

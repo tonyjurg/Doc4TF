@@ -1,12 +1,22 @@
-<pre><code># Feature: otype
+<h1>Feature: otype</h1>
 
-Data type | Available for node types |
---------  | -------- |
-string |  &lt;A HREF="featurebynodetype.md#wg"&gt;wg&lt;/A&gt; &lt;A HREF="featurebynodetype.md#chapter"&gt;chapter&lt;/A&gt; &lt;A HREF="featurebynodetype.md#word"&gt;word&lt;/A&gt; &lt;A HREF="featurebynodetype.md#book"&gt;book&lt;/A&gt; &lt;A HREF="featurebynodetype.md#verse"&gt;verse&lt;/A&gt; &lt;A HREF="featurebynodetype.md#sentence"&gt;sentence&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>string</td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#chapter">chapter</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A> <A HREF="featurebynodetype.md#verse">verse</A> <A HREF="featurebynodetype.md#sentence">sentence</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-No feature description
+<p>No feature description</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>

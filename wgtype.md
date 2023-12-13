@@ -1,12 +1,22 @@
-<pre><code># Feature: wgtype
+<h1>Feature: wgtype</h1>
 
-Data type | Available for node types |
---------  | -------- |
-string |  &lt;A HREF="featurebynodetype.md#wg"&gt;wg&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>string</td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-✅ Wordgroup type details (e.g. group, apposition)
+<p>✅ Wordgroup type details (e.g. group, apposition)</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>

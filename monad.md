@@ -1,12 +1,22 @@
-<pre><code># Feature: monad
+<h1>Feature: monad</h1>
 
-Data type | Available for node types |
---------  | -------- |
-integer |  &lt;A HREF="featurebynodetype.md#word"&gt;word&lt;/A&gt; |
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>integer</td>
+  <td><A HREF="featurebynodetype.md#word">word</A></td>
+</tr>
+</tbody>
+</table>
 
-## Description
+<h2>Description</h2>
 
-✅ Monad (smallest token matching word order in the corpus)
+<p>✅ Monad (smallest token matching word order in the corpus)</p>
 
-## Values
-</code></pre>
+<h2>Values\TBA</h2>
