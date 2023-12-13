@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>ὁ</td>
-  <td>39566</td>
+  <td><code>ὁ</code>|39566</td>
 </tr>
 <tr>
-  <td>καί</td>
-  <td>17956</td>
+  <td><code>καί</code>|17956</td>
 </tr>
 <tr>
-  <td>αὐτός</td>
-  <td>11122</td>
+  <td><code>αὐτός</code>|11122</td>
 </tr>
 <tr>
-  <td>σύ</td>
-  <td>5784</td>
+  <td><code>σύ</code>|5784</td>
 </tr>
 <tr>
-  <td>δέ</td>
-  <td>5574</td>
+  <td><code>δέ</code>|5574</td>
 </tr>
 <tr>
-  <td>ἐν</td>
-  <td>5486</td>
+  <td><code>ἐν</code>|5486</td>
 </tr>
 <tr>
-  <td>ἐγώ</td>
-  <td>5134</td>
+  <td><code>ἐγώ</code>|5134</td>
 </tr>
 <tr>
-  <td>εἰμί</td>
-  <td>4914</td>
+  <td><code>εἰμί</code>|4914</td>
 </tr>
 <tr>
-  <td>λέγω</td>
-  <td>4510</td>
+  <td><code>λέγω</code>|4510</td>
 </tr>
 <tr>
-  <td>εἰς</td>
-  <td>3532</td>
+  <td><code>εἰς</code>|3532</td>
 </tr>
 </tbody>
 </table>

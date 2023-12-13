@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>LUK</td>
-  <td>19457</td>
+  <td><code>LUK</code>|19457</td>
 </tr>
 <tr>
-  <td>ACT</td>
-  <td>18394</td>
+  <td><code>ACT</code>|18394</td>
 </tr>
 <tr>
-  <td>MAT</td>
-  <td>18300</td>
+  <td><code>MAT</code>|18300</td>
 </tr>
 <tr>
-  <td>JHN</td>
-  <td>15644</td>
+  <td><code>JHN</code>|15644</td>
 </tr>
 <tr>
-  <td>MRK</td>
-  <td>11278</td>
+  <td><code>MRK</code>|11278</td>
 </tr>
 <tr>
-  <td>REV</td>
-  <td>9833</td>
+  <td><code>REV</code>|9833</td>
 </tr>
 <tr>
-  <td>ROM</td>
-  <td>7101</td>
+  <td><code>ROM</code>|7101</td>
 </tr>
 <tr>
-  <td>1CO</td>
-  <td>6821</td>
+  <td><code>1CO</code>|6821</td>
 </tr>
 <tr>
-  <td>HEB</td>
-  <td>4956</td>
+  <td><code>HEB</code>|4956</td>
 </tr>
 <tr>
-  <td>2CO</td>
-  <td>4470</td>
+  <td><code>2CO</code>|4470</td>
 </tr>
 </tbody>
 </table>

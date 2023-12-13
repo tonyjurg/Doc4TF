@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>DetNP</td>
-  <td>31392</td>
+  <td><code>DetNP</code>|31392</td>
 </tr>
 <tr>
-  <td>PrepNp</td>
-  <td>22088</td>
+  <td><code>PrepNp</code>|22088</td>
 </tr>
 <tr>
-  <td>NPofNP</td>
-  <td>13638</td>
+  <td><code>NPofNP</code>|13638</td>
 </tr>
 <tr>
-  <td>Conj-CL</td>
-  <td>11152</td>
+  <td><code>Conj-CL</code>|11152</td>
 </tr>
 <tr>
-  <td>CLaCL</td>
-  <td>7658</td>
+  <td><code>CLaCL</code>|7658</td>
 </tr>
 <tr>
-  <td>sub-CL</td>
-  <td>6058</td>
+  <td><code>sub-CL</code>|6058</td>
 </tr>
 <tr>
-  <td>V2CL</td>
-  <td>5686</td>
+  <td><code>V2CL</code>|5686</td>
 </tr>
 <tr>
-  <td>V-O</td>
-  <td>5450</td>
+  <td><code>V-O</code>|5450</td>
 </tr>
 <tr>
-  <td>DetCL</td>
-  <td>4022</td>
+  <td><code>DetCL</code>|4022</td>
 </tr>
 <tr>
-  <td>Np-Appos</td>
-  <td>3816</td>
+  <td><code>Np-Appos</code>|3816</td>
 </tr>
 </tbody>
 </table>

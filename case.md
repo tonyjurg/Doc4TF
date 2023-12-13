@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,24 +31,19 @@
 </thead>
 <tbody>
 <tr>
-  <td>nominative</td>
-  <td>48394</td>
+  <td><code>nominative</code>|48394</td>
 </tr>
 <tr>
-  <td>accusative</td>
-  <td>46062</td>
+  <td><code>accusative</code>|46062</td>
 </tr>
 <tr>
-  <td>genitive</td>
-  <td>39030</td>
+  <td><code>genitive</code>|39030</td>
 </tr>
 <tr>
-  <td>dative</td>
-  <td>24252</td>
+  <td><code>dative</code>|24252</td>
 </tr>
 <tr>
-  <td>vocative</td>
-  <td>1298</td>
+  <td><code>vocative</code>|1298</td>
 </tr>
 </tbody>
 </table>

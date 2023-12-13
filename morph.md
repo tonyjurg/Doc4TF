@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>CONJ</td>
-  <td>32632</td>
+  <td><code>CONJ</code>|32632</td>
 </tr>
 <tr>
-  <td>PREP</td>
-  <td>21136</td>
+  <td><code>PREP</code>|21136</td>
 </tr>
 <tr>
-  <td>ADV</td>
-  <td>7616</td>
+  <td><code>ADV</code>|7616</td>
 </tr>
 <tr>
-  <td>N-NSM</td>
-  <td>6950</td>
+  <td><code>N-NSM</code>|6950</td>
 </tr>
 <tr>
-  <td>N-GSM</td>
-  <td>5870</td>
+  <td><code>N-GSM</code>|5870</td>
 </tr>
 <tr>
-  <td>T-NSM</td>
-  <td>5810</td>
+  <td><code>T-NSM</code>|5810</td>
 </tr>
 <tr>
-  <td>N-ASF</td>
-  <td>5740</td>
+  <td><code>N-ASF</code>|5740</td>
 </tr>
 <tr>
-  <td>PRT-N</td>
-  <td>5402</td>
+  <td><code>PRT-N</code>|5402</td>
 </tr>
 <tr>
-  <td>N-ASM</td>
-  <td>4912</td>
+  <td><code>N-ASM</code>|4912</td>
 </tr>
 <tr>
-  <td>V-PAI-3S</td>
-  <td>4542</td>
+  <td><code>V-PAI-3S</code>|4542</td>
 </tr>
 </tbody>
 </table>

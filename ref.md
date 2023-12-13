@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>1CO 10:1!1</td>
-  <td>2</td>
+  <td><code>1CO 10:1!1</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!10</td>
-  <td>2</td>
+  <td><code>1CO 10:1!10</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!11</td>
-  <td>2</td>
+  <td><code>1CO 10:1!11</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!12</td>
-  <td>2</td>
+  <td><code>1CO 10:1!12</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!13</td>
-  <td>2</td>
+  <td><code>1CO 10:1!13</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!14</td>
-  <td>2</td>
+  <td><code>1CO 10:1!14</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!15</td>
-  <td>2</td>
+  <td><code>1CO 10:1!15</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!16</td>
-  <td>2</td>
+  <td><code>1CO 10:1!16</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!17</td>
-  <td>2</td>
+  <td><code>1CO 10:1!17</code>|2</td>
 </tr>
 <tr>
-  <td>1CO 10:1!18</td>
-  <td>2</td>
+  <td><code>1CO 10:1!18</code>|2</td>
 </tr>
 </tbody>
 </table>

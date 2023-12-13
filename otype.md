@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#subphrase">subphrase</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#chapter">chapter</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#verse">verse</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,12 +31,10 @@
 </thead>
 <tbody>
 <tr>
-  <td>singular</td>
-  <td>139692</td>
+  <td><code>singular</code>|139692</td>
 </tr>
 <tr>
-  <td>plural</td>
-  <td>58182</td>
+  <td><code>plural</code>|58182</td>
 </tr>
 </tbody>
 </table>

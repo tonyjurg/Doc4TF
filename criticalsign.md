@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,32 +31,25 @@
 </thead>
 <tbody>
 <tr>
-  <td>—</td>
-  <td>50</td>
+  <td><code>—</code>|50</td>
 </tr>
 <tr>
-  <td>(</td>
-  <td>22</td>
+  <td><code>(</code>|22</td>
 </tr>
 <tr>
-  <td>)</td>
-  <td>22</td>
+  <td><code>)</code>|22</td>
 </tr>
 <tr>
-  <td>[[</td>
-  <td>14</td>
+  <td><code>[[</code>|14</td>
 </tr>
 <tr>
-  <td>]]</td>
-  <td>14</td>
+  <td><code>]]</code>|14</td>
 </tr>
 <tr>
-  <td>[</td>
-  <td>2</td>
+  <td><code>[</code>|2</td>
 </tr>
 <tr>
-  <td>]</td>
-  <td>2</td>
+  <td><code>]</code>|2</td>
 </tr>
 </tbody>
 </table>

@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,16 +31,13 @@
 </thead>
 <tbody>
 <tr>
-  <td>third</td>
-  <td>25494</td>
+  <td><code>third</code>|25494</td>
 </tr>
 <tr>
-  <td>second</td>
-  <td>7458</td>
+  <td><code>second</code>|7458</td>
 </tr>
 <tr>
-  <td>first</td>
-  <td>5886</td>
+  <td><code>first</code>|5886</td>
 </tr>
 </tbody>
 </table>

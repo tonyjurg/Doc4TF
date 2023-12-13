@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#chapter">chapter</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#verse">verse</A> <A HREF="featurebynodetype.md#sentence">sentence</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#chapter"><code>chapter</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#book"><code>book</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#verse"><code>verse</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>Luke</td>
-  <td>38054</td>
+  <td><code>Luke</code>|38054</td>
 </tr>
 <tr>
-  <td>Matthew</td>
-  <td>35292</td>
+  <td><code>Matthew</code>|35292</td>
 </tr>
 <tr>
-  <td>Acts</td>
-  <td>34574</td>
+  <td><code>Acts</code>|34574</td>
 </tr>
 <tr>
-  <td>John</td>
-  <td>30536</td>
+  <td><code>John</code>|30536</td>
 </tr>
 <tr>
-  <td>Mark</td>
-  <td>22386</td>
+  <td><code>Mark</code>|22386</td>
 </tr>
 <tr>
-  <td>Revelation</td>
-  <td>17798</td>
+  <td><code>Revelation</code>|17798</td>
 </tr>
 <tr>
-  <td>1Corinthians</td>
-  <td>13504</td>
+  <td><code>1Corinthians</code>|13504</td>
 </tr>
 <tr>
-  <td>Romans</td>
-  <td>13079</td>
+  <td><code>Romans</code>|13079</td>
 </tr>
 <tr>
-  <td>Hebrews</td>
-  <td>9204</td>
+  <td><code>Hebrews</code>|9204</td>
 </tr>
 <tr>
-  <td>2Corinthians</td>
-  <td>8367</td>
+  <td><code>2Corinthians</code>|8367</td>
 </tr>
 </tbody>
 </table>

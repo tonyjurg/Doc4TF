@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#subphrase">subphrase</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>modifier-scope</td>
-  <td>59290</td>
+  <td><code>modifier-scope</code>|59290</td>
 </tr>
 <tr>
-  <td>common</td>
-  <td>47288</td>
+  <td><code>common</code>|47288</td>
 </tr>
 <tr>
-  <td>wrapper-clause-scope</td>
-  <td>24332</td>
+  <td><code>wrapper-clause-scope</code>|24332</td>
 </tr>
 <tr>
-  <td>personal</td>
-  <td>23042</td>
+  <td><code>personal</code>|23042</td>
 </tr>
 <tr>
-  <td>wrapper-scope</td>
-  <td>22528</td>
+  <td><code>wrapper-scope</code>|22528</td>
 </tr>
 <tr>
-  <td>conjuncted-wg</td>
-  <td>16150</td>
+  <td><code>conjuncted-wg</code>|16150</td>
 </tr>
 <tr>
-  <td>group</td>
-  <td>9914</td>
+  <td><code>group</code>|9914</td>
 </tr>
 <tr>
-  <td>proper</td>
-  <td>9278</td>
+  <td><code>proper</code>|9278</td>
 </tr>
 <tr>
-  <td>demonstrative</td>
-  <td>3444</td>
+  <td><code>demonstrative</code>|3444</td>
 </tr>
 <tr>
-  <td>modifier-clause-scope</td>
-  <td>3424</td>
+  <td><code>modifier-clause-scope</code>|3424</td>
 </tr>
 </tbody>
 </table>

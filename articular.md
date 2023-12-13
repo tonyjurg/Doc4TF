@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>integer</td>
-  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
+  <td><code>integer</code>| <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,8 +31,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>1</td>
-  <td>57544</td>
+  <td><code>1</code>|57544</td>
 </tr>
 </tbody>
 </table>

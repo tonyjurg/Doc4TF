@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#subphrase">subphrase</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>np</td>
-  <td>61822</td>
+  <td><code>np</code>|61822</td>
 </tr>
 <tr>
-  <td>cl</td>
-  <td>60304</td>
+  <td><code>cl</code>|60304</td>
 </tr>
 <tr>
-  <td>noun</td>
-  <td>56910</td>
+  <td><code>noun</code>|56910</td>
 </tr>
 <tr>
-  <td>verb</td>
-  <td>56714</td>
+  <td><code>verb</code>|56714</td>
 </tr>
 <tr>
-  <td>det</td>
-  <td>39572</td>
+  <td><code>det</code>|39572</td>
 </tr>
 <tr>
-  <td>conj</td>
-  <td>36456</td>
+  <td><code>conj</code>|36456</td>
 </tr>
 <tr>
-  <td>pron</td>
-  <td>32354</td>
+  <td><code>pron</code>|32354</td>
 </tr>
 <tr>
-  <td>pp</td>
-  <td>22338</td>
+  <td><code>pp</code>|22338</td>
 </tr>
 <tr>
-  <td>prep</td>
-  <td>21828</td>
+  <td><code>prep</code>|21828</td>
 </tr>
 <tr>
-  <td>adj</td>
-  <td>16904</td>
+  <td><code>adj</code>|16904</td>
 </tr>
 </tbody>
 </table>

@@ -11,8 +11,7 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><code>string</code>| <A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A></td>
 </tr>
 </tbody>
 </table>
@@ -32,44 +31,34 @@
 </thead>
 <tbody>
 <tr>
-  <td>the</td>
-  <td>19714</td>
+  <td><code>the</code>|19714</td>
 </tr>
 <tr>
-  <td>and</td>
-  <td>12424</td>
+  <td><code>and</code>|12424</td>
 </tr>
 <tr>
-  <td>-</td>
-  <td>10992</td>
+  <td><code>-</code>|10992</td>
 </tr>
 <tr>
-  <td>in</td>
-  <td>4640</td>
+  <td><code>in</code>|4640</td>
 </tr>
 <tr>
-  <td>And</td>
-  <td>4436</td>
+  <td><code>And</code>|4436</td>
 </tr>
 <tr>
-  <td>not</td>
-  <td>4084</td>
+  <td><code>not</code>|4084</td>
 </tr>
 <tr>
-  <td>of the</td>
-  <td>3102</td>
+  <td><code>of the</code>|3102</td>
 </tr>
 <tr>
-  <td>for</td>
-  <td>3002</td>
+  <td><code>for</code>|3002</td>
 </tr>
 <tr>
-  <td>that</td>
-  <td>2996</td>
+  <td><code>that</code>|2996</td>
 </tr>
 <tr>
-  <td>you</td>
-  <td>2452</td>
+  <td><code>you</code>|2452</td>
 </tr>
 </tbody>
 </table>
