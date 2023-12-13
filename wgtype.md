@@ -1,8 +1,19 @@
 <h1>Feature: wordunacc</h1>
 
-<p>Data type | Available for node types |
----  | --- |
-string |  word |</p>
+<table>
+<thead>
+<tr>
+  <th>Data type</th>
+  <th>Available for node types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>string</td>
+  <td>word</td>
+</tr>
+</tbody>
+</table>
 
 <h2>Description</h2>
 
