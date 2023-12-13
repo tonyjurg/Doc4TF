@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: junction</h1>
+<h1>Feature: articular</h1>
 
 <table>
 <thead>
@@ -11,15 +11,15 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
+  <td>integer</td>
+  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>type of junction</p>
+<p>1 if the wg has an article</p>
 
 <h2>Values</h2>
 
@@ -32,12 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td>coordinate</td>
-  <td>18734</td>
-</tr>
-<tr>
-  <td>subordinate</td>
-  <td>17108</td>
+  <td>1</td>
+  <td>57544</td>
 </tr>
 </tbody>
 </table>

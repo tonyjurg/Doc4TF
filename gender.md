@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: gn</h1>
+<h1>Feature: gender</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Gramatical gender (Masculine, Feminine, Neuter)</p>
+<p>grammatical gender</p>
 
 <h2>Values</h2>
 
@@ -32,20 +32,16 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>63804</td>
-</tr>
-<tr>
   <td>masculine</td>
-  <td>41486</td>
+  <td>82972</td>
 </tr>
 <tr>
   <td>feminine</td>
-  <td>18736</td>
+  <td>37472</td>
 </tr>
 <tr>
   <td>neuter</td>
-  <td>13753</td>
+  <td>27506</td>
 </tr>
 </tbody>
 </table>

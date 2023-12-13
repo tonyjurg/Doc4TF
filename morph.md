@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: morph</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Morphological tag (Sandborg-Petersen morphology)</p>
+<p>morphological code</p>
 
 <h2>Values</h2>
 
@@ -33,43 +33,43 @@
 <tbody>
 <tr>
   <td>CONJ</td>
-  <td>16316</td>
+  <td>32632</td>
 </tr>
 <tr>
   <td>PREP</td>
-  <td>10568</td>
+  <td>21136</td>
 </tr>
 <tr>
   <td>ADV</td>
-  <td>3808</td>
+  <td>7616</td>
 </tr>
 <tr>
   <td>N-NSM</td>
-  <td>3475</td>
+  <td>6950</td>
 </tr>
 <tr>
   <td>N-GSM</td>
-  <td>2935</td>
+  <td>5870</td>
 </tr>
 <tr>
   <td>T-NSM</td>
-  <td>2905</td>
+  <td>5810</td>
 </tr>
 <tr>
   <td>N-ASF</td>
-  <td>2870</td>
+  <td>5740</td>
 </tr>
 <tr>
   <td>PRT-N</td>
-  <td>2701</td>
+  <td>5402</td>
 </tr>
 <tr>
   <td>N-ASM</td>
-  <td>2456</td>
+  <td>4912</td>
 </tr>
 <tr>
   <td>V-PAI-3S</td>
-  <td>2271</td>
+  <td>4542</td>
 </tr>
 </tbody>
 </table>

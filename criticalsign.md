@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: tense</h1>
+<h1>Feature: criticalsign</h1>
 
 <table>
 <thead>
@@ -19,7 +19,7 @@
 
 <h2>Description</h2>
 
-<p>verbal tense</p>
+<p>this is XML attribute criticalsign</p>
 
 <h2>Values</h2>
 
@@ -32,28 +32,32 @@
 </thead>
 <tbody>
 <tr>
-  <td>aorist</td>
-  <td>23606</td>
+  <td>—</td>
+  <td>50</td>
 </tr>
 <tr>
-  <td>present</td>
-  <td>23158</td>
+  <td>(</td>
+  <td>22</td>
 </tr>
 <tr>
-  <td>imperfect</td>
-  <td>3378</td>
+  <td>)</td>
+  <td>22</td>
 </tr>
 <tr>
-  <td>future</td>
-  <td>3252</td>
+  <td>[[</td>
+  <td>14</td>
 </tr>
 <tr>
-  <td>perfect</td>
-  <td>3144</td>
+  <td>]]</td>
+  <td>14</td>
 </tr>
 <tr>
-  <td>pluperfect</td>
-  <td>176</td>
+  <td>[</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>]</td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>

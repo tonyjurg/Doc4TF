@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: mood</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Gramatical mood of the verb (passive, etc)</p>
+<p>verbal mood</p>
 
 <h2>Values</h2>
 
@@ -32,32 +32,28 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>109422</td>
-</tr>
-<tr>
   <td>indicative</td>
-  <td>15617</td>
+  <td>31234</td>
 </tr>
 <tr>
   <td>participle</td>
-  <td>6653</td>
+  <td>13306</td>
 </tr>
 <tr>
   <td>infinitive</td>
-  <td>2285</td>
+  <td>4570</td>
 </tr>
 <tr>
   <td>imperative</td>
-  <td>1877</td>
+  <td>3754</td>
 </tr>
 <tr>
   <td>subjunctive</td>
-  <td>1856</td>
+  <td>3712</td>
 </tr>
 <tr>
   <td>optative</td>
-  <td>69</td>
+  <td>138</td>
 </tr>
 </tbody>
 </table>

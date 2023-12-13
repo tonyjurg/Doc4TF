@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: unicode</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Word as it apears in the text in Unicode (incl. punctuations)</p>
+<p>word in unicode characters plus material after it</p>
 
 <h2>Values</h2>
 
@@ -33,43 +33,43 @@
 <tbody>
 <tr>
   <td>καὶ</td>
-  <td>8541</td>
+  <td>17082</td>
 </tr>
 <tr>
   <td>ὁ</td>
-  <td>2768</td>
+  <td>5536</td>
 </tr>
 <tr>
   <td>ἐν</td>
-  <td>2683</td>
+  <td>5366</td>
 </tr>
 <tr>
   <td>δὲ</td>
-  <td>2619</td>
+  <td>5238</td>
 </tr>
 <tr>
   <td>τοῦ</td>
-  <td>2497</td>
+  <td>4994</td>
 </tr>
 <tr>
   <td>εἰς</td>
-  <td>1755</td>
+  <td>3510</td>
 </tr>
 <tr>
   <td>τὸ</td>
-  <td>1657</td>
+  <td>3314</td>
 </tr>
 <tr>
   <td>τὸν</td>
-  <td>1556</td>
+  <td>3112</td>
 </tr>
 <tr>
   <td>τὴν</td>
-  <td>1518</td>
+  <td>3036</td>
 </tr>
 <tr>
   <td>τῆς</td>
-  <td>1300</td>
+  <td>2600</td>
 </tr>
 </tbody>
 </table>

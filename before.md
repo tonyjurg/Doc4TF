@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: markafter</h1>
+<h1>Feature: before</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>🆗 Text critical marker after word</p>
+<p>this is XML attribute before</p>
 
 <h2>Values</h2>
 
@@ -32,28 +32,20 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>137728</td>
-</tr>
-<tr>
   <td>—</td>
-  <td>31</td>
-</tr>
-<tr>
-  <td>)</td>
-  <td>11</td>
-</tr>
-<tr>
-  <td>]]</td>
-  <td>7</td>
+  <td>32</td>
 </tr>
 <tr>
   <td>(</td>
-  <td>1</td>
+  <td>20</td>
 </tr>
 <tr>
-  <td>]</td>
-  <td>1</td>
+  <td>[[</td>
+  <td>14</td>
+</tr>
+<tr>
+  <td>[</td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>

@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: lemma</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Lexeme (lemma)</p>
+<p>lexical lemma</p>
 
 <h2>Values</h2>
 
@@ -33,43 +33,43 @@
 <tbody>
 <tr>
   <td>ὁ</td>
-  <td>19783</td>
+  <td>39566</td>
 </tr>
 <tr>
   <td>καί</td>
-  <td>8978</td>
+  <td>17956</td>
 </tr>
 <tr>
   <td>αὐτός</td>
-  <td>5561</td>
+  <td>11122</td>
 </tr>
 <tr>
   <td>σύ</td>
-  <td>2892</td>
+  <td>5784</td>
 </tr>
 <tr>
   <td>δέ</td>
-  <td>2787</td>
+  <td>5574</td>
 </tr>
 <tr>
   <td>ἐν</td>
-  <td>2743</td>
+  <td>5486</td>
 </tr>
 <tr>
   <td>ἐγώ</td>
-  <td>2567</td>
+  <td>5134</td>
 </tr>
 <tr>
   <td>εἰμί</td>
-  <td>2457</td>
+  <td>4914</td>
 </tr>
 <tr>
   <td>λέγω</td>
-  <td>2255</td>
+  <td>4510</td>
 </tr>
 <tr>
   <td>εἰς</td>
-  <td>1766</td>
+  <td>3532</td>
 </tr>
 </tbody>
 </table>

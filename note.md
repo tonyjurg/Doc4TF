@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: nu</h1>
+<h1>Feature: note</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Gramatical number (Singular, Plural)</p>
+<p>annotation of linguistic nature</p>
 
 <h2>Values</h2>
 
@@ -32,16 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td>singular</td>
-  <td>69846</td>
-</tr>
-<tr>
-  <td>empty</td>
-  <td>38842</td>
-</tr>
-<tr>
-  <td>plural</td>
-  <td>29091</td>
+  <td>discontinuous discourse</td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>

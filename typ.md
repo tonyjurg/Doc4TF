@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: tense</h1>
+<h1>Feature: typ</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
+  <td><A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>verbal tense</p>
+<p>this is XML attribute typ</p>
 
 <h2>Values</h2>
 
@@ -32,28 +32,32 @@
 </thead>
 <tbody>
 <tr>
-  <td>aorist</td>
-  <td>23606</td>
+  <td>NP</td>
+  <td>61822</td>
 </tr>
 <tr>
-  <td>present</td>
-  <td>23158</td>
+  <td>PP</td>
+  <td>22338</td>
 </tr>
 <tr>
-  <td>imperfect</td>
-  <td>3378</td>
+  <td>conjuncted</td>
+  <td>16150</td>
 </tr>
 <tr>
-  <td>future</td>
-  <td>3252</td>
+  <td>apposition</td>
+  <td>1778</td>
 </tr>
 <tr>
-  <td>perfect</td>
-  <td>3144</td>
+  <td>VP</td>
+  <td>414</td>
 </tr>
 <tr>
-  <td>pluperfect</td>
-  <td>176</td>
+  <td>AdjP</td>
+  <td>336</td>
+</tr>
+<tr>
+  <td>AdvP</td>
+  <td>332</td>
 </tr>
 </tbody>
 </table>

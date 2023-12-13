@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: gloss</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ English gloss</p>
+<p>short translation</p>
 
 <h2>Values</h2>
 
@@ -33,43 +33,43 @@
 <tbody>
 <tr>
   <td>the</td>
-  <td>9857</td>
+  <td>19714</td>
 </tr>
 <tr>
   <td>and</td>
-  <td>6212</td>
+  <td>12424</td>
 </tr>
 <tr>
   <td>-</td>
-  <td>5496</td>
+  <td>10992</td>
 </tr>
 <tr>
   <td>in</td>
-  <td>2320</td>
+  <td>4640</td>
 </tr>
 <tr>
   <td>And</td>
-  <td>2218</td>
+  <td>4436</td>
 </tr>
 <tr>
   <td>not</td>
-  <td>2042</td>
+  <td>4084</td>
 </tr>
 <tr>
   <td>of the</td>
-  <td>1551</td>
+  <td>3102</td>
 </tr>
 <tr>
   <td>for</td>
-  <td>1501</td>
+  <td>3002</td>
 </tr>
 <tr>
   <td>that</td>
-  <td>1498</td>
+  <td>2996</td>
 </tr>
 <tr>
   <td>you</td>
-  <td>1226</td>
+  <td>2452</td>
 </tr>
 </tbody>
 </table>

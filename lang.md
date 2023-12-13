@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: markorder</h1>
+<h1>Feature: lang</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#book">book</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>Order of punctuation and text critical marker</p>
+<p>language the text is in</p>
 
 <h2>Values</h2>
 
@@ -32,24 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>137694</td>
-</tr>
-<tr>
-  <td>0</td>
-  <td>34</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td>32</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>10</td>
-</tr>
-<tr>
-  <td>1</td>
-  <td>9</td>
+  <td>el</td>
+  <td>27</td>
 </tr>
 </tbody>
 </table>

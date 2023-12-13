@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: otype</h1>
 
@@ -12,7 +12,7 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#chapter">chapter</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A> <A HREF="featurebynodetype.md#verse">verse</A> <A HREF="featurebynodetype.md#sentence">sentence</A></td>
+  <td><A HREF="featurebynodetype.md#subphrase">subphrase</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#chapter">chapter</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#book">book</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#verse">verse</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
@@ -33,15 +33,11 @@
 <tbody>
 <tr>
   <td>singular</td>
-  <td>69846</td>
-</tr>
-<tr>
-  <td>empty</td>
-  <td>38842</td>
+  <td>139692</td>
 </tr>
 <tr>
   <td>plural</td>
-  <td>29091</td>
+  <td>58182</td>
 </tr>
 </tbody>
 </table>

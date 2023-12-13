@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: person</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Gramatical person of the verb (first, second, third)</p>
+<p>grammatical person</p>
 
 <h2>Values</h2>
 
@@ -32,20 +32,16 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>118360</td>
-</tr>
-<tr>
   <td>third</td>
-  <td>12747</td>
+  <td>25494</td>
 </tr>
 <tr>
   <td>second</td>
-  <td>3729</td>
+  <td>7458</td>
 </tr>
 <tr>
   <td>first</td>
-  <td>2943</td>
+  <td>5886</td>
 </tr>
 </tbody>
 </table>

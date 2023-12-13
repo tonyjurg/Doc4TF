@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: markbefore</h1>
+<h1>Feature: appositioncontainer</h1>
 
 <table>
 <thead>
@@ -11,15 +11,15 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td>integer</td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>🆗 Text critical marker before word</p>
+<p>1 if it is an apposition container</p>
 
 <h2>Values</h2>
 
@@ -32,24 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>137745</td>
-</tr>
-<tr>
-  <td>—</td>
-  <td>16</td>
-</tr>
-<tr>
-  <td>(</td>
-  <td>10</td>
-</tr>
-<tr>
-  <td>[[</td>
-  <td>7</td>
-</tr>
-<tr>
-  <td>[</td>
   <td>1</td>
+  <td>3816</td>
 </tr>
 </tbody>
 </table>

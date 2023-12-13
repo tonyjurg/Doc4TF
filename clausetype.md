@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: clausetype</h1>
+<h1>Feature: clauseType</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#wg">wg</A></td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Clause type details (e.g. Verbless, Minor)</p>
+<p>clause type</p>
 
 <h2>Values</h2>
 
@@ -32,20 +32,8 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>102662</td>
-</tr>
-<tr>
-  <td>VerbElided</td>
-  <td>1009</td>
-</tr>
-<tr>
-  <td>Verbless</td>
-  <td>929</td>
-</tr>
-<tr>
-  <td>Minor</td>
-  <td>830</td>
+  <td>nominalized</td>
+  <td>10592</td>
 </tr>
 </tbody>
 </table>

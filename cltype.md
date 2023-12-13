@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: junction</h1>
+<h1>Feature: cltype</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>type of junction</p>
+<p>clause type</p>
 
 <h2>Values</h2>
 
@@ -32,12 +32,16 @@
 </thead>
 <tbody>
 <tr>
-  <td>coordinate</td>
-  <td>18734</td>
+  <td>VerbElided</td>
+  <td>2100</td>
 </tr>
 <tr>
-  <td>subordinate</td>
-  <td>17108</td>
+  <td>Verbless</td>
+  <td>1922</td>
+</tr>
+<tr>
+  <td>Minor</td>
+  <td>1664</td>
 </tr>
 </tbody>
 </table>

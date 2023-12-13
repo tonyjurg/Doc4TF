@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: nodeID</h1>
+<h1>Feature: nodeId</h1>
 
 <table>
 <thead>
@@ -11,15 +11,15 @@
 </thead>
 <tbody>
 <tr>
-  <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td>integer</td>
+  <td><A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Node ID (as in the XML source data)</p>
+<p>node id (as in the XML source data</p>
 
 <h2>Values</h2>
 
@@ -32,44 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>52046</td>
+  <td>400010200010490</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>common</td>
-  <td>14186</td>
+  <td>400010200120390</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>personal</td>
-  <td>6040</td>
+  <td>400010200130100</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>proper</td>
-  <td>2192</td>
+  <td>400010210050150</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>relative</td>
-  <td>885</td>
+  <td>400010220140230</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>demonstrative</td>
-  <td>755</td>
+  <td>400010230010220</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>verb</td>
-  <td>436</td>
+  <td>400020010140270</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>noun</td>
-  <td>391</td>
+  <td>400020020010200</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>det</td>
-  <td>359</td>
+  <td>400020050010370</td>
+  <td>2</td>
 </tr>
 <tr>
-  <td>interrogative</td>
-  <td>341</td>
+  <td>400020050090290</td>
+  <td>2</td>
 </tr>
 </tbody>
 </table>

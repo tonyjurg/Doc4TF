@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: ln</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#subphrase">subphrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Lauw-Nida lexical classification (not present everywhere?)</p>
+<p>ln</p>
 
 <h2>Values</h2>
 
@@ -33,43 +33,43 @@
 <tbody>
 <tr>
   <td>92.24</td>
-  <td>19781</td>
-</tr>
-<tr>
-  <td>empty</td>
-  <td>10488</td>
+  <td>39476</td>
 </tr>
 <tr>
   <td>92.11</td>
-  <td>4718</td>
+  <td>9436</td>
 </tr>
 <tr>
   <td>89.92</td>
-  <td>2903</td>
+  <td>5806</td>
 </tr>
 <tr>
   <td>89.87</td>
-  <td>2756</td>
+  <td>5512</td>
 </tr>
 <tr>
   <td>33.69</td>
-  <td>2336</td>
+  <td>4672</td>
 </tr>
 <tr>
   <td>69.3</td>
-  <td>1736</td>
+  <td>3472</td>
 </tr>
 <tr>
   <td>92.1</td>
-  <td>1732</td>
+  <td>3464</td>
 </tr>
 <tr>
   <td>92.7</td>
-  <td>1494</td>
+  <td>2988</td>
 </tr>
 <tr>
   <td>12.1</td>
-  <td>1247</td>
+  <td>2494</td>
+</tr>
+<tr>
+  <td>92.29</td>
+  <td>2180</td>
 </tr>
 </tbody>
 </table>

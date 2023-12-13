@@ -1,6 +1,6 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: bookshort</h1>
+<h1>Feature: book_short</h1>
 
 <table>
 <thead>
@@ -19,7 +19,7 @@
 
 <h2>Description</h2>
 
-<p>✅ Book name (abbreviated)</p>
+<p>this is XML attribute book_short</p>
 
 <h2>Values</h2>
 
@@ -32,43 +32,43 @@
 </thead>
 <tbody>
 <tr>
-  <td>Luke</td>
+  <td>LUK</td>
   <td>19457</td>
 </tr>
 <tr>
-  <td>Acts</td>
+  <td>ACT</td>
   <td>18394</td>
 </tr>
 <tr>
-  <td>Matt</td>
+  <td>MAT</td>
   <td>18300</td>
 </tr>
 <tr>
-  <td>John</td>
+  <td>JHN</td>
   <td>15644</td>
 </tr>
 <tr>
-  <td>Mark</td>
+  <td>MRK</td>
   <td>11278</td>
 </tr>
 <tr>
-  <td>Rev</td>
+  <td>REV</td>
   <td>9833</td>
 </tr>
 <tr>
-  <td>Rom</td>
+  <td>ROM</td>
   <td>7101</td>
 </tr>
 <tr>
-  <td>1Cor</td>
+  <td>1CO</td>
   <td>6821</td>
 </tr>
 <tr>
-  <td>Heb</td>
+  <td>HEB</td>
   <td>4956</td>
 </tr>
 <tr>
-  <td>2Cor</td>
+  <td>2CO</td>
   <td>4470</td>
 </tr>
 </tbody>

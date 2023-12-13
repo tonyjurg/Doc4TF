@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: type</h1>
 
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#word">word</A></td>
+  <td><A HREF="featurebynodetype.md#subphrase">subphrase</A> <A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#group">group</A> <A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#clause">clause</A> <A HREF="featurebynodetype.md#phrase">phrase</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Gramatical type  of noun or pronoun (e.g. Common, Personal)</p>
+<p>morphological type (on w), syntactical type (on wg)</p>
 
 <h2>Values</h2>
 
@@ -32,44 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td>empty</td>
-  <td>93321</td>
+  <td>modifier-scope</td>
+  <td>59290</td>
 </tr>
 <tr>
   <td>common</td>
-  <td>23644</td>
+  <td>47288</td>
+</tr>
+<tr>
+  <td>wrapper-clause-scope</td>
+  <td>24332</td>
 </tr>
 <tr>
   <td>personal</td>
-  <td>11521</td>
+  <td>23042</td>
+</tr>
+<tr>
+  <td>wrapper-scope</td>
+  <td>22528</td>
+</tr>
+<tr>
+  <td>conjuncted-wg</td>
+  <td>16150</td>
+</tr>
+<tr>
+  <td>group</td>
+  <td>9914</td>
 </tr>
 <tr>
   <td>proper</td>
-  <td>4639</td>
+  <td>9278</td>
 </tr>
 <tr>
   <td>demonstrative</td>
-  <td>1722</td>
+  <td>3444</td>
 </tr>
 <tr>
-  <td>relative</td>
-  <td>1674</td>
-</tr>
-<tr>
-  <td>interrogative</td>
-  <td>633</td>
-</tr>
-<tr>
-  <td>indefinite</td>
-  <td>552</td>
-</tr>
-<tr>
-  <td>possessive</td>
-  <td>70</td>
-</tr>
-<tr>
-  <td>adverbial</td>
-  <td>3</td>
+  <td>modifier-clause-scope</td>
+  <td>3424</td>
 </tr>
 </tbody>
 </table>

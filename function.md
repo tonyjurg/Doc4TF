@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: junction</h1>
+<h1>Feature: function</h1>
 
 <table>
 <thead>
@@ -12,14 +12,14 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><A HREF="featurebynodetype.md#sentence">sentence</A> <A HREF="featurebynodetype.md#wg">wg</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#clause">clause</A></td>
+  <td><A HREF="featurebynodetype.md#word">word</A> <A HREF="featurebynodetype.md#phrase">phrase</A> <A HREF="featurebynodetype.md#wg">wg</A></td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>type of junction</p>
+<p>this is XML attribute function</p>
 
 <h2>Values</h2>
 
@@ -32,12 +32,24 @@
 </thead>
 <tbody>
 <tr>
-  <td>coordinate</td>
-  <td>18734</td>
+  <td>Pred</td>
+  <td>49554</td>
 </tr>
 <tr>
-  <td>subordinate</td>
-  <td>17108</td>
+  <td>Subj</td>
+  <td>19850</td>
+</tr>
+<tr>
+  <td>Objc</td>
+  <td>18974</td>
+</tr>
+<tr>
+  <td>PreC</td>
+  <td>6906</td>
+</tr>
+<tr>
+  <td>Cmpl</td>
+  <td>5086</td>
 </tr>
 </tbody>
 </table>

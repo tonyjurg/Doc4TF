@@ -1,6 +1,6 @@
 <p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
-<h1>Feature: tense</h1>
+<h1>Feature: framespec</h1>
 
 <table>
 <thead>
@@ -19,7 +19,7 @@
 
 <h2>Description</h2>
 
-<p>verbal tense</p>
+<p>this is XML attribute framespec</p>
 
 <h2>Values</h2>
 
@@ -32,28 +32,44 @@
 </thead>
 <tbody>
 <tr>
-  <td>aorist</td>
-  <td>23606</td>
+  <td>A0:n00000000000</td>
+  <td>1792</td>
 </tr>
 <tr>
-  <td>present</td>
-  <td>23158</td>
+  <td>A1:n00000000000</td>
+  <td>338</td>
 </tr>
 <tr>
-  <td>imperfect</td>
-  <td>3378</td>
+  <td>A0:n47010001004</td>
+  <td>94</td>
 </tr>
 <tr>
-  <td>future</td>
-  <td>3252</td>
+  <td>A0:n46003022002</td>
+  <td>92</td>
 </tr>
 <tr>
-  <td>perfect</td>
-  <td>3144</td>
+  <td>A0:n41006030007</td>
+  <td>68</td>
 </tr>
 <tr>
-  <td>pluperfect</td>
-  <td>176</td>
+  <td>A0:n66001009002</td>
+  <td>68</td>
+</tr>
+<tr>
+  <td>A0:n40005001015</td>
+  <td>62</td>
+</tr>
+<tr>
+  <td>A0:n45001001001</td>
+  <td>58</td>
+</tr>
+<tr>
+  <td>A0:n50001001001</td>
+  <td>54</td>
+</tr>
+<tr>
+  <td>A0:n42020034005</td>
+  <td>50</td>
 </tr>
 </tbody>
 </table>

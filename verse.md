@@ -1,4 +1,4 @@
-<p>N1904 dataset</p>
+<p>N1904 Greek New Testament Text-Fabric dataset (saulocantanhede/tfgreek2)</p>
 
 <h1>Feature: verse</h1>
 
@@ -19,7 +19,7 @@
 
 <h2>Description</h2>
 
-<p>✅ Verse number inside chapter</p>
+<p>verse number, from ref attribute in xml</p>
 
 <h2>Values</h2>
 
@@ -49,7 +49,7 @@
 </tr>
 <tr>
   <td>1</td>
-  <td>4793</td>
+  <td>4794</td>
 </tr>
 <tr>
   <td>3</td>
