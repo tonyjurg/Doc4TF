@@ -34,7 +34,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: chapter</h2>
+<h2>chapter</h2>
 
 <table>
 <thead>
