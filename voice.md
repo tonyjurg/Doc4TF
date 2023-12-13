@@ -53,3 +53,5 @@
 </tr>
 </tbody>
 </table>
+
+<p>Note: only the first 10 items are shown</p>
