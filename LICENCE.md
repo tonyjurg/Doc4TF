@@ -1,6 +1,6 @@
 <img src="images/CC-BY-40.png" style="float: right;">
 
-# Creative Commons Attribution 4.0 International (CC BY 4.0).
+## Creative Commons Attribution 4.0 International (CC BY 4.0).
 This is a human-readable summary of (and not a substitute for) the [license](http://creativecommons.org/licenses/by/4.0/).
 
 ### You are free to:
