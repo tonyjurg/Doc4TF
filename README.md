@@ -1,4 +1,4 @@
-# Doc4TF
+<img src="images/DOC4TF.png" width="100" height="100" style="float: right;">
 
 Ideally, a comprehensive documentation set should be created as part of developing a Text-Fabric dataset. However, in practice, this is not always completed during the initial phase or after changes to features. This Jupyter Notebook contains Python code to automatically generate (and thus ensure consistency) a documentation set for any Text-Fabric dataset. It serves as a robust starting point for the development of a brand new documentation set or as validation for an existing one. One major advantage is that the resulting documentation set is fully hyperlinked, a task that can be laborious if done manually.
 
