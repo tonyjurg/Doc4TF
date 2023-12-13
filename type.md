@@ -1,22 +1,12 @@
-<h1>Feature: after</h1>
+<pre><code># Feature: type
 
-<table>
-<thead>
-<tr>
-  <th>Data type</th>
-  <th>Available for node types</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>string</td>
-  <td><a href="featurebynodetype.md#word">word</a></td>
-</tr>
-</tbody>
-</table>
+Data type | Available for node types |
+--------  | -------- |
+string |  &lt;A HREF="featurebynodetype.md#word"&gt;word&lt;/A&gt; |
 
-<h2>Description</h2>
+## Description
 
-<p>✅ Characters (eg. punctuations) following the word</p>
+✅ Gramatical type  of noun or pronoun (e.g. Common, Personal)
 
-<h2>Values</h2>
+## Values
+</code></pre>
