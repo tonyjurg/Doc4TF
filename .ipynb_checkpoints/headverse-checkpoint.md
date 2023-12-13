@@ -1,4 +1,4 @@
-<h1>Feature: after</h1>
+<h1>Feature: wordunacc</h1>
 
 <table>
 <thead>
@@ -10,13 +10,13 @@
 <tbody>
 <tr>
   <td>string</td>
-  <td><a href="featurebynodetype.md#word">word</a></td>
+  <td>word</td>
 </tr>
 </tbody>
 </table>
 
 <h2>Description</h2>
 
-<p>✅ Characters (eg. punctuations) following the word</p>
+<p>✅ Word without accents (excl. punctuations)</p>
 
 <h2>Values</h2>
