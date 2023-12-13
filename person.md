@@ -21,4 +21,6 @@
 
 <p>✅ Gramatical person of the verb (first, second, third)</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>

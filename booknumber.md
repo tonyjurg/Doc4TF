@@ -21,4 +21,6 @@
 
 <p>✅ NT book number (Matthew=1, Mark=2, ..., Revelation=27)</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>

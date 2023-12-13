@@ -21,4 +21,6 @@
 
 <p>🆗 Number of the parent wordgroups for a word</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>

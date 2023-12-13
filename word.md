@@ -21,4 +21,6 @@
 
 <p>✅ Word as it appears in the text (excl. punctuations)</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>

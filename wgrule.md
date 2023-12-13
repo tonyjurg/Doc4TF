@@ -21,4 +21,6 @@
 
 <p>✅ Wordgroup rule information (e.g. Np-Appos, ClCl2, PrepNp)</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>

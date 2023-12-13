@@ -21,4 +21,6 @@
 
 <p>✅ Monad (smallest token matching word order in the corpus)</p>
 
-<h2>Values\TBA</h2>
+<h2>Values</h2>
+
+<p>TBA</p>
