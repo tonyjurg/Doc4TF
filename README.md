@@ -1,6 +1,15 @@
 # Doc4TF
 
-Tool to automaticaly generate feature documentation for any existing or freshly created Text-Fabric dataset.
+Ideally, a comprehensive documentation set should be created as part of developing a Text-Fabric dataset. However, in practice, this is not always completed during the initial phase or after changes to features. This Jupyter Notebook contains Python code to automatically generate (and thus ensure consistency) a documentation set for any Text-Fabric dataset. It serves as a robust starting point for the development of a brand new documentation set or as validation for an existing one. One major advantage is that the resulting documentation set is fully hyperlinked, a task that can be laborious if done manually.
+
+The main steps in producing the documentation set are:
+* Load a Text-Fabric database
+* Execute the code pressent in the subsequent cells. The code will:
+   * construct a few python dictionaries with relevant data from the TF datase 
+   * create separate files for each feature
+   * create an overview page of all featers per node type
+
+An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featurebynodetype.md). 
 
 # About Text-Fabric
 
