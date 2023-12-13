@@ -1,6 +1,8 @@
 <p>N1904 dataset</p>
 
-<h1>Features per node type##book</h1>
+<h1>Features per node type</h1>
+
+<h2>book</h2>
 
 <table>
 <thead>
