@@ -1,6 +1,6 @@
 <h1>Features per node type</h1>
 
-<h2>Nodetype: book</h2>
+<h2>book</h2>
 
 <table>
 <thead>
@@ -34,7 +34,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: chapter</h2>
+<h2>chapter</h2>
 
 <table>
 <thead>
@@ -63,7 +63,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: verse</h2>
+<h2>verse</h2>
 
 <table>
 <thead>
@@ -97,7 +97,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: sentence</h2>
+<h2>sentence</h2>
 
 <table>
 <thead>
@@ -136,7 +136,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: wg</h2>
+<h2>wg</h2>
 
 <table>
 <thead>
@@ -200,7 +200,7 @@
 </tbody>
 </table>
 
-<h2>Nodetype: word</h2>
+<h2>word</h2>
 
 <table>
 <thead>
