@@ -13,11 +13,11 @@ Since Doc4TF is implemented as a Jupyter notebook, you will need an environment 
 To start using Doc4TF, you first need to download this [Jupyter Notebook file](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) and place it anywhere on your system where you can execute it. The notebook will guide you through the process, which basically consists of the following steps::
 * Load the Text-Fabric database you specify.
 * Execute the code pressent in the subsequent cells. The code will:
-   * Construct a few python dictionaries with relevant data from the TF datase.
+   * Construct a python dictionary with relevant data from the TF datase.
    * Create separate files for each feature.
-   * Create an overview page of all featers per node type.
+   * Create index pages.
 
-The output of the tool consists of a set of markdown files, which is the standard file format used for regular Text-Fabric feature documentation. To browse these files using a standard web browser, they need to undergo post-processing. One method is to transfer the files to a GitHub repository, which allows any browser to view the post-processed files. It is also possible to browse markdown files directly in your browser after installing a browser extension like [markdown viewer](https://github.com/simov/markdown-viewer).
+The output of the tool consists of a set of markdown which is the standard file format used for regular Text-Fabric feature documentation. To browse these files using a standard web browser, they need to undergo post-processing. One method is to transfer the files to a GitHub repository, which allows any browser to view the post-processed files. It is also possible to browse markdown files directly in your browser after installing a browser extension like [markdown viewer](https://github.com/simov/markdown-viewer). The script can also create a set of HTML files that can be stored on a local drive and browsed using any webbrowser.
 
 An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featurebynodetype.md). 
 
