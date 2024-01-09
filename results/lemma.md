@@ -1,77 +1,50 @@
-<p>N1904 Greek New Testament Text-Fabric dataset <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.2</a></p>
+N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+# Feature: lemma
+Data type|Feature type|Available for nodes
+---|---|---
+[`String`](featurebydatatype.md#string)|[`Node`](featurebytype.md#node)| [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+## Description
+lexical lemma
+## Feature Values
+### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+Value|Occurences
+---|---
+καί|8364
+αὐτός|2839
+δέ|2787
+λέγω|2252
+εἰμί|2251
+σύ|1470
+ἐγώ|1248
+ὅτι|1216
+οὐ|1182
+ὅς|1111
+### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+Value|Occurences
+---|---
+ὁ|19783
+καί|8978
+αὐτός|5561
+σύ|2892
+δέ|2787
+ἐν|2743
+ἐγώ|2567
+εἰμί|2457
+λέγω|2255
+εἰς|1766
+### Frequency for nodetype [word](featurebynodetype.md#word)
+Value|Occurences
+---|---
+ὁ|19783
+καί|8978
+αὐτός|5561
+σύ|2892
+δέ|2787
+ἐν|2743
+ἐγώ|2567
+εἰμί|2457
+λέγω|2255
+εἰς|1766
+ 
 
-<h1>Feature: lemma</h1>
-
-<table>
-<thead>
-<tr>
-  <th>Data type</th>
-  <th>Available for node types</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>string</code></td>
-  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
-</tr>
-</tbody>
-</table>
-
-<h2>Description</h2>
-
-<p>lexical lemma</p>
-
-<h2>Values</h2>
-
-<table>
-<thead>
-<tr>
-  <th>Value</th>
-  <th>Frequency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>ὁ</code></td>
-  <td>39566</td>
-</tr>
-<tr>
-  <td><code>καί</code></td>
-  <td>17956</td>
-</tr>
-<tr>
-  <td><code>αὐτός</code></td>
-  <td>11122</td>
-</tr>
-<tr>
-  <td><code>σύ</code></td>
-  <td>5784</td>
-</tr>
-<tr>
-  <td><code>δέ</code></td>
-  <td>5574</td>
-</tr>
-<tr>
-  <td><code>ἐν</code></td>
-  <td>5486</td>
-</tr>
-<tr>
-  <td><code>ἐγώ</code></td>
-  <td>5134</td>
-</tr>
-<tr>
-  <td><code>εἰμί</code></td>
-  <td>4914</td>
-</tr>
-<tr>
-  <td><code>λέγω</code></td>
-  <td>4510</td>
-</tr>
-<tr>
-  <td><code>εἰς</code></td>
-  <td>3532</td>
-</tr>
-</tbody>
-</table>
-
-<p>Note: only the first 10 items are shown</p>
+Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 

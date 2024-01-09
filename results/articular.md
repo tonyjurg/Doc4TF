@@ -1,41 +1,35 @@
-<p>N1904 Greek New Testament Text-Fabric dataset <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.2</a></p>
+N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+# Feature: articular
+Data type|Feature type|Available for nodes
+---|---|---
+[`Integer`](featurebydatatype.md#integer)|[`Node`](featurebytype.md#node)| [`sentence`](featurebynodetype.md#sentence)  [`group`](featurebynodetype.md#group)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase) 
+## Description
+1 if the sentence, group, clause, phrase or wg has an article
+## Feature Values
+### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+Value|Occurences
+---|---
+1|2549
+### Frequency for nodetype [group](featurebynodetype.md#group)
+Value|Occurences
+---|---
+1|187
+### Frequency for nodetype [clause](featurebynodetype.md#clause)
+Value|Occurences
+---|---
+1|973
+### Frequency for nodetype [wg](featurebynodetype.md#wg)
+Value|Occurences
+---|---
+1|28772
+### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+Value|Occurences
+---|---
+1|25063
+### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+Value|Occurences
+---|---
+1|25063
+ 
 
-<h1>Feature: articular</h1>
-
-<table>
-<thead>
-<tr>
-  <th>Data type</th>
-  <th>Available for node types</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>integer</code></td>
-  <td><A HREF="featurebynodetype.md#sentence"><code>sentence</code></A> <A HREF="featurebynodetype.md#group"><code>group</code></A> <A HREF="featurebynodetype.md#wg"><code>wg</code></A> <A HREF="featurebynodetype.md#clause"><code>clause</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
-</tr>
-</tbody>
-</table>
-
-<h2>Description</h2>
-
-<p>1 if the wg has an article</p>
-
-<h2>Values</h2>
-
-<table>
-<thead>
-<tr>
-  <th>Value</th>
-  <th>Frequency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>1</code></td>
-  <td>57544</td>
-</tr>
-</tbody>
-</table>
-
-<p>Note: only the first 10 items are shown</p>
+Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 

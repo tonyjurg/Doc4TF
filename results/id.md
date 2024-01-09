@@ -1,77 +1,50 @@
-<p>N1904 Greek New Testament Text-Fabric dataset <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.2</a></p>
+N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+# Feature: id
+Data type|Feature type|Available for nodes
+---|---|---
+[`String`](featurebydatatype.md#string)|[`Node`](featurebytype.md#node)| [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+## Description
+xml id
+## Feature Values
+### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+Value|Occurences
+---|---
+n40001002001|1
+n40001002002|1
+n40001002005|1
+n40001002006|1
+n40001002007|1
+n40001002010|1
+n40001002011|1
+n40001002012|1
+n40001002015|1
+n40001003001|1
+### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+Value|Occurences
+---|---
+n40001001001|1
+n40001001002|1
+n40001001003|1
+n40001001004|1
+n40001001005|1
+n40001001006|1
+n40001001007|1
+n40001001008|1
+n40001002001|1
+n40001002002|1
+### Frequency for nodetype [word](featurebynodetype.md#word)
+Value|Occurences
+---|---
+n40001001001|1
+n40001001002|1
+n40001001003|1
+n40001001004|1
+n40001001005|1
+n40001001006|1
+n40001001007|1
+n40001001008|1
+n40001002001|1
+n40001002002|1
+ 
 
-<h1>Feature: id</h1>
-
-<table>
-<thead>
-<tr>
-  <th>Data type</th>
-  <th>Available for node types</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>string</code></td>
-  <td><A HREF="featurebynodetype.md#word"><code>word</code></A> <A HREF="featurebynodetype.md#subphrase"><code>subphrase</code></A> <A HREF="featurebynodetype.md#phrase"><code>phrase</code></A></td>
-</tr>
-</tbody>
-</table>
-
-<h2>Description</h2>
-
-<p>xml id</p>
-
-<h2>Values</h2>
-
-<table>
-<thead>
-<tr>
-  <th>Value</th>
-  <th>Frequency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><code>n40001001001</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001002</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001003</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001004</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001005</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001006</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001007</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001001008</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001002001</code></td>
-  <td>2</td>
-</tr>
-<tr>
-  <td><code>n40001002002</code></td>
-  <td>2</td>
-</tr>
-</tbody>
-</table>
-
-<p>Note: only the first 10 items are shown</p>
+Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
