@@ -9,7 +9,7 @@ material after the end of the word
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
- |35751
+space|35751
 ,|3593
 .|2501
 ·|1106
@@ -22,7 +22,7 @@ Value|Occurences
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
- |119261
+space|119261
 ,|9439
 .|5704
 ·|2355
@@ -35,7 +35,7 @@ Value|Occurences
 ### Frequency for nodetype [word](featurebynodetype.md#word)
 Value|Occurences
 ---|---
- |119261
+space|119261
 ,|9439
 .|5704
 ·|2355

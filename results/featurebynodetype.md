@@ -39,6 +39,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`parent`](parent.md#readme)|[`Edge`](featurebytype.md#Edge)|[`String`](featurebydatatype.md#String)|parent relationship between words|`Link`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`type`](type.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
 ## group
 
@@ -51,6 +52,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`parent`](parent.md#readme)|[`Edge`](featurebytype.md#Edge)|[`String`](featurebydatatype.md#String)|parent relationship between words|`Link`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`typ`](typ.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
 [`type`](type.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
 ## clause
@@ -71,6 +73,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`parent`](parent.md#readme)|[`Edge`](featurebytype.md#Edge)|[`String`](featurebydatatype.md#String)|parent relationship between words|`Link`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`type`](type.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
 ## wg
 
@@ -92,6 +95,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`rela`](rela.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute rela|`Appo`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`typ`](typ.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
 [`type`](type.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
 ## phrase
@@ -129,6 +133,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`referent`](referent.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|number of referent|`n40005001015` `n43014023002` `n43013023006 n43013037003 n43014005003 n43014008003 n43014022003` `n43017001003`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`strong`](strong.md#readme)|[`Node`](featurebytype.md#Node)|[`Integer`](featurebydatatype.md#Integer)|strong number|`846` `3004` `4771` `1473`
 [`subjrefspec`](subjrefspec.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute subjrefspec|`n46003022002` `n66001009002` `n45001001001` `n47010001004`
 [`tense`](tense.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|verbal tense|`aorist` `present` `future` `perfect`
@@ -174,6 +179,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`rela`](rela.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute rela|`Appo`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
 [`rule`](rule.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`strong`](strong.md#readme)|[`Node`](featurebytype.md#Node)|[`Integer`](featurebydatatype.md#Integer)|strong number|`846` `3004` `4771` `1473`
 [`subjrefspec`](subjrefspec.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute subjrefspec|`n46003022002` `n66001009002` `n45001001001` `n47010001004`
 [`tense`](tense.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|verbal tense|`aorist` `present` `future` `perfect`
@@ -219,6 +225,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`referent`](referent.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|number of referent|`n40005001015` `n43014023002` `n43013023006 n43013037003 n43014005003 n43014008003 n43014022003` `n43017001003`
 [`rela`](rela.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute rela|`Appo`
 [`role`](role.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|role|`adv` `o` `s` `apposition`
+[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#Edge)|[`Integer`](featurebydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
 [`strong`](strong.md#readme)|[`Node`](featurebytype.md#Node)|[`Integer`](featurebydatatype.md#Integer)|strong number|`846` `3004` `4771` `1473`
 [`subjref`](subjref.md#readme)|[`Edge`](featurebytype.md#Edge)|[`String`](featurebydatatype.md#String)|number of subject referent|`Link`
 [`subjrefspec`](subjrefspec.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|this is XML attribute subjrefspec|`n46003022002` `n66001009002` `n45001001001` `n47010001004`

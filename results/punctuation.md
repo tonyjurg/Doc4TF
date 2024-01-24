@@ -9,7 +9,7 @@ this is XML attribute punctuation
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
- |35750
+space|35750
 ,|3604
 .|2508
 ·|1108
@@ -17,7 +17,7 @@ Value|Occurences
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
- |119264
+space|119264
 ,|9462
 .|5717
 ·|2359
@@ -25,7 +25,7 @@ Value|Occurences
 ### Frequency for nodetype [word](featurebynodetype.md#word)
 Value|Occurences
 ---|---
- |119264
+space|119264
 ,|9462
 .|5717
 ·|2359
