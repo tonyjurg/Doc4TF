@@ -231,4 +231,4 @@ Feature|Featuretype|Datatype|Description|Examples
 [`voice`](voice.md#readme)|[`Node`](featurebytype.md#Node)|[`String`](featurebydatatype.md#String)|verbal voice|`active` `passive` `middle` `middlepassive`
 
 
-Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)

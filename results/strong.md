@@ -47,4 +47,4 @@ Value|Occurences
 1519|1766
  
 
-Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
