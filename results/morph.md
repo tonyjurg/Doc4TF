@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: morph
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,16 +9,16 @@ morphological code
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-CONJ|15591
-ADV|3025
-V-PAI-3S|2226
-PRT-N|2012
-V-2AAI-3S|1244
+ADV|2081
+PRT-N|1977
+V-PAI-3S|1376
+V-2AAI-3S|1243
 V-AAI-3S|1225
-V-PAP-NSM|880
-PRT|796
-V-PAI-1S|765
+V-PAP-NSM|828
 P-ASM|746
+P-DSM|700
+N-NSM|641
+V-PAI-1S|631
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
@@ -47,4 +47,4 @@ N-ASM|2456
 V-PAI-3S|2271
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

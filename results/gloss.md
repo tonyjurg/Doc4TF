@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: gloss
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,16 +9,16 @@ short translation
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-and|6198
-And|2204
-not|1624
-that|1205
-for|1071
-now|951
-then|875
-however|736
-you|668
-is|578
+not|1619
+you|667
+Him|535
+to you|453
+him|406
+them|394
+saying|391
+to them|373
+said|312
+I|303
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
@@ -47,4 +47,4 @@ that|1498
 you|1226
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

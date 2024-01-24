@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: book
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -48,16 +48,16 @@ II_Corinthians|256
 ### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
 Value|Occurences
 ---|---
-Luke|2271
-Matthew|2142
-John|2114
-Acts|1767
-Mark|1370
-I_Corinthians|1087
-Romans|940
-Revelation|899
-II_Corinthians|643
-Hebrews|547
+Luke|2839
+Matthew|2649
+John|2635
+Acts|2249
+Mark|1756
+I_Corinthians|1244
+Revelation|1190
+Romans|1044
+II_Corinthians|722
+Hebrews|612
 ### Frequency for nodetype [group](featurebynodetype.md#group)
 Value|Occurences
 ---|---
@@ -87,16 +87,16 @@ II_Corinthians|897
 ### Frequency for nodetype [wg](featurebynodetype.md#wg)
 Value|Occurences
 ---|---
-Luke|8346
-Matthew|7623
-Acts|7241
-John|6677
-Mark|4962
-Revelation|3580
-I_Corinthians|2994
-Romans|2683
-Hebrews|1908
-II_Corinthians|1763
+Luke|8914
+Matthew|8130
+Acts|7723
+John|7198
+Mark|5348
+Revelation|3871
+I_Corinthians|3151
+Romans|2787
+Hebrews|1973
+II_Corinthians|1842
 ### Frequency for nodetype [word](featurebynodetype.md#word)
 Value|Occurences
 ---|---
@@ -112,4 +112,4 @@ Hebrews|4955
 II_Corinthians|4469
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

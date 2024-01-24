@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: type
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -36,15 +36,15 @@ apposition-group|891
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-modifier-scope|29645
-wrapper-scope|11264
-personal|5888
-common|2473
-group|2389
-modifier-clause-scope|1712
+modifier-scope|10484
+wrapper-scope|9535
+personal|5885
+common|2120
 relative|1364
+group|952
+modifier-clause-scope|755
 demonstrative|744
-proper|743
+proper|683
 interrogative|480
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
@@ -73,4 +73,4 @@ possessive|70
 adverbial|3
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

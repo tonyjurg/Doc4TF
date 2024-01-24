@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: unicode
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,16 +9,16 @@ word in unicode characters plus material after it
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-καὶ|7937
-δὲ|2619
-ὅτι|1205
-γὰρ|920
-μὴ|681
+μὴ|669
 οὐκ|660
-ἵνα|641
 αὐτῷ|602
 εἶπεν|560
 αὐτὸν|519
+αὐτοῖς|420
+οὐ|378
+λέγει|318
+ὑμῖν|283
+ὑμᾶς|221
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
@@ -47,4 +47,4 @@ Value|Occurences
 τῆς|1300
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

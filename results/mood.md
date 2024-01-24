@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: mood
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,12 +9,12 @@ verbal mood
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-indicative|15245
-participle|6320
-infinitive|2228
-imperative|1854
-subjunctive|1832
-optative|67
+indicative|13260
+participle|6050
+infinitive|2067
+subjunctive|1730
+imperative|1611
+optative|54
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
@@ -35,4 +35,4 @@ subjunctive|1856
 optative|69
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

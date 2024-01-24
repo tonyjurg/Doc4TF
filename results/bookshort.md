@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: bookshort
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -22,16 +22,16 @@ Value|Occurences
 ### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
 Value|Occurences
 ---|---
-LUK|2271
-MAT|2142
-JHN|2114
-ACT|1767
-MRK|1370
-1CO|1087
-ROM|940
-REV|899
-2CO|643
-HEB|547
+LUK|2839
+MAT|2649
+JHN|2635
+ACT|2249
+MRK|1756
+1CO|1244
+REV|1190
+ROM|1044
+2CO|722
+HEB|612
 ### Frequency for nodetype [group](featurebynodetype.md#group)
 Value|Occurences
 ---|---
@@ -61,16 +61,16 @@ HEB|1036
 ### Frequency for nodetype [wg](featurebynodetype.md#wg)
 Value|Occurences
 ---|---
-LUK|8346
-MAT|7623
-ACT|7241
-JHN|6677
-MRK|4962
-REV|3580
-1CO|2994
-ROM|2683
-HEB|1908
-2CO|1763
+LUK|8914
+MAT|8130
+ACT|7723
+JHN|7198
+MRK|5348
+REV|3871
+1CO|3151
+ROM|2787
+HEB|1973
+2CO|1842
 ### Frequency for nodetype [word](featurebynodetype.md#word)
 Value|Occurences
 ---|---
@@ -86,4 +86,4 @@ HEB|4955
 2CO|4469
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 

@@ -1,4 +1,4 @@
-N1904 Greek New Testament Text-Fabric dataset [saulocantanhede/tfgreek2 - 0.5.4](https://github.com/saulocantanhede/tfgreek2)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
 # Feature: lemma
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,16 +9,16 @@ lexical lemma
 ### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
 Value|Occurences
 ---|---
-καί|8364
 αὐτός|2839
-δέ|2787
-λέγω|2252
-εἰμί|2251
-σύ|1470
-ἐγώ|1248
-ὅτι|1216
+λέγω|2214
+σύ|1468
+ἐγώ|1247
 οὐ|1182
 ὅς|1111
+μή|779
+ἔχω|699
+οὗτος|650
+ἔρχομαι|633
 ### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
 Value|Occurences
 ---|---
@@ -47,4 +47,4 @@ Value|Occurences
 εἰς|1766
  
 
-Created using [Doc4TF - version 0.2](https://github.com/tonyjurg/Doc4TF) 
+Created on Jan. 24, 2024 using [Doc4TF  version 0.3(Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
