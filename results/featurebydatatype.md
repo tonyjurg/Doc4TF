@@ -12,7 +12,6 @@ Feature|Featuretype|Available on nodes|Description|Examples
 [`num`](num.md#readme)|[`Node`](featurebytype.md#node)|[`book`](featurebynodetype.md#book) [`sentence`](featurebynodetype.md#sentence) [`group`](featurebynodetype.md#group) [`clause`](featurebynodetype.md#clause) [`wg`](featurebynodetype.md#wg) [`phrase`](featurebynodetype.md#phrase) [`subphrase`](featurebynodetype.md#subphrase) [`word`](featurebynodetype.md#word) |generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`strong`](strong.md#readme)|[`Node`](featurebytype.md#node)|[`phrase`](featurebynodetype.md#phrase) [`subphrase`](featurebynodetype.md#subphrase) [`word`](featurebynodetype.md#word) |strong number|`846` `3004` `4771` `1473`
 [`verse`](verse.md#readme)|[`Node`](featurebytype.md#node)|[`verse`](featurebynodetype.md#verse) [`word`](featurebynodetype.md#word) |verse number, from ref attribute in xml|`1` `2` `3` `4`
-[`sibling`](sibling.md#readme)|[`Edge`](featurebytype.md#edge)|[`sentence`](featurebynodetype.md#sentence) [`group`](featurebynodetype.md#group) [`clause`](featurebynodetype.md#clause) [`wg`](featurebynodetype.md#wg) [`phrase`](featurebynodetype.md#phrase) [`subphrase`](featurebynodetype.md#subphrase) [`word`](featurebynodetype.md#word) |this is XML attribute sibling|`1` `2` `3` `4`
 ## String
 
 Feature|Featuretype|Available on nodes|Description|Examples
@@ -65,4 +64,4 @@ Feature|Featuretype|Available on nodes|Description|Examples
 [`subjref`](subjref.md#readme)|[`Edge`](featurebytype.md#edge)|[`word`](featurebynodetype.md#word) |number of subject referent|`Link`
 
 
-Created on Jan. 24, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)
+Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)

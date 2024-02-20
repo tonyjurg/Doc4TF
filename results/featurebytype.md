@@ -61,8 +61,7 @@ Feature|Datatype|Available on nodes|Description|Examples
 [`frame`](frame.md#readme)|[`String`](featurebydatatype.md#string)|[`word`](featurebynodetype.md#word) |frame|`A0` `A1` `A2` `AA2`
 [`oslots`](oslots.md#readme)|[`String`](featurebydatatype.md#string)||No feature description|No values
 [`parent`](parent.md#readme)|[`String`](featurebydatatype.md#string)|[`sentence`](featurebynodetype.md#sentence) [`group`](featurebynodetype.md#group) [`clause`](featurebynodetype.md#clause) [`wg`](featurebynodetype.md#wg) [`phrase`](featurebynodetype.md#phrase) [`subphrase`](featurebynodetype.md#subphrase) [`word`](featurebynodetype.md#word) |parent relationship between words|`Link`
-[`sibling`](sibling.md#readme)|[`Integer`](featurebydatatype.md#integer)|[`sentence`](featurebynodetype.md#sentence) [`group`](featurebynodetype.md#group) [`clause`](featurebynodetype.md#clause) [`wg`](featurebynodetype.md#wg) [`phrase`](featurebynodetype.md#phrase) [`subphrase`](featurebynodetype.md#subphrase) [`word`](featurebynodetype.md#word) |this is XML attribute sibling|`1` `2` `3` `4`
 [`subjref`](subjref.md#readme)|[`String`](featurebydatatype.md#string)|[`word`](featurebynodetype.md#word) |number of subject referent|`Link`
 
 
-Created on Jan. 24, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)
+Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF)
