@@ -4,11 +4,13 @@
 
 # Why Doc4TF?
 
-Ideally, a comprehensive documentation set should be created as part of developing a Text-Fabric dataset. However, in practice, this is not always completed during the initial phase or properly updated after changes are made to features. This [Jupyter Notebook](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) contains Python code to automatically generate a documentation set for any Text-Fabric dataset based upon *its actual data*. It serves as a robust starting point for the development of a brand new documentation set or as validation for an existing one. One major advantage is that the resulting documentation set is fully hyperlinked, a task that can be laborious if done manually. 
+Ideally, comprehensive end-user documentation should accompany the development of a Text-Fabric dataset. However, this task isn't always completed in the initial phase. Furthermore, changes to features often go unrecorded in the documentation, leading to mismatches between the actual data and its supposed description.
+
+This [Jupyter Notebook](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) contains Python code to automatically generate a documentation set for any Text-Fabric dataset based on *its actual data*. It serves as a robust starting point for developing a brand-new documentation set, especially since the resulting documentation is fully hyperlinked, a task that can be laborious if done manually. The tool can also be used to validate existing documentation.
 
 # Using Doc4TF 
 
-Since Doc4TF is implemented as a Jupyter notebook, you will need an environment capable of running Jupyter notebooks. As this tool is intended to be used alongside Text-Fabric, it's likely that you have already set up such an environment. If you haven't done so yet, a good option is to install [Anaconda](https://www.anaconda.com/).
+Since Doc4TF is implemented as a Jupyter Notebook, you will need an environment capable of running Jupyter Notebooks.  Given that this tool is designed for use with Text-Fabric, you likely already have a suitable environment set up. If not, a good option is to install [Anaconda](https://www.anaconda.com/).
 
 To start using Doc4TF, you first need to download this [Jupyter Notebook file](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) and place it anywhere on your system where you can execute it. The notebook will guide you through the process, which basically consists of the following steps::
 * Load the Text-Fabric database you specify.
@@ -17,7 +19,9 @@ To start using Doc4TF, you first need to download this [Jupyter Notebook file](h
    * Create separate files for each feature.
    * Create index pages.
 
-The output of the tool consists of a set of markdown which is the standard file format used for regular Text-Fabric feature documentation. To browse these files using a standard web browser, they need to undergo post-processing. One method is to transfer the files to a GitHub repository, which allows any browser to view the post-processed files. It is also possible to browse markdown files directly in your browser after installing a browser extension like [markdown viewer](https://github.com/simov/markdown-viewer). The script can also create a set of HTML files that can be stored on a local drive and browsed using any webbrowser.
+The tool outputs a set of markdown files (extention '.md'), the standard format for Text-Fabric feature documentation. To view these files in a standard web browser, post-processing, specifically rendering the markdown into HTML, is required. One method is to upload the files to a GitHub repository, enabling viewing the markdown files in any browser. Alternatively, you can installing an extension like [markdown viewer](https://github.com/simov/markdown-viewer) which would allow you to  view the rendered markdown files directly in your browser. 
+
+Alternatively, the script can also generate a set of HTML files. These files can be stored on a local drive which allows for browsing them using any webbrowser.
 
 An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featurebynodetype.md). 
 
