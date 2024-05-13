@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: frame
 Data type|Feature type|Available for nodes
 ---|---|---
-[`String`](featurebydatatype.md#string)|[`Edge`](featurebytype.md#edge)| [`word`](featurebynodetype.md#word) 
+[`String`](featuresbydatatype.md#string)|[`Edge`](featuresbytype.md#edge)| [`word`](featuresbynodetype.md#word) 
 ## Description
 frame
 ## Feature Values
-### Frequency for nodetype [word](featurebynodetype.md#word)
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 A0|25654
@@ -15,4 +15,4 @@ A2|2577
 AA2|92
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

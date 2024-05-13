@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: num
 Data type|Feature type|Available for nodes
 ---|---|---
-[`Integer`](featurebydatatype.md#integer)|[`Node`](featurebytype.md#node)| [`book`](featurebynodetype.md#book)  [`sentence`](featurebynodetype.md#sentence)  [`group`](featurebynodetype.md#group)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbytype.md#node)| [`book`](featuresbynodetype.md#book)  [`sentence`](featuresbynodetype.md#sentence)  [`group`](featuresbynodetype.md#group)  [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`phrase`](featuresbynodetype.md#phrase)  [`subphrase`](featuresbynodetype.md#subphrase)  [`word`](featuresbynodetype.md#word) 
 ## Description
 generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.
 ## Feature Values
-### Frequency for nodetype [book](featurebynodetype.md#book)
+### Frequency for nodetype [book](featuresbynodetype.md#book)
 Value|Occurences
 ---|---
 1|1
@@ -19,7 +19,7 @@ Value|Occurences
 8|1
 9|1
 10|1
-### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
 1|52
@@ -32,7 +32,7 @@ Value|Occurences
 5|29
 9|29
 11|29
-### Frequency for nodetype [group](featurebynodetype.md#group)
+### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
 1|27
@@ -45,59 +45,59 @@ Value|Occurences
 8|27
 9|27
 10|27
-### Frequency for nodetype [clause](featurebynodetype.md#clause)
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
+36|29
+13|28
+16|28
+37|28
+40|28
+42|28
+5|27
+7|27
 8|27
 10|27
-13|27
-16|27
-21|27
-22|27
-24|27
-25|27
-28|27
-36|27
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
-1|115
+1|116
 4|99
-8|95
-13|95
-17|95
-7|94
-15|94
-27|93
-16|92
-23|92
-### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+17|97
+7|96
+13|96
+15|96
+30|96
+8|94
+5|93
+20|93
+### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 1|23
-153|21
-46|20
-157|20
-174|20
-308|20
-355|20
+234|21
+75|20
+79|20
+129|20
+147|20
+155|20
+235|20
 77|19
-95|19
-129|19
-### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+89|19
+### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
-62|41
-153|41
-355|40
-308|38
-659|38
-45|37
-129|37
-155|37
-251|37
-878|37
-### Frequency for nodetype [word](featurebynodetype.md#word)
+159|41
+62|40
+147|40
+234|40
+163|39
+439|39
+77|38
+79|38
+129|38
+155|38
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 1|7943
@@ -112,4 +112,4 @@ Value|Occurences
 10|7166
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

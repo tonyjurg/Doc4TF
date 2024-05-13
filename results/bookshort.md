@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: bookshort
 Data type|Feature type|Available for nodes
 ---|---|---
-[`String`](featurebydatatype.md#string)|[`Node`](featurebytype.md#node)| [`book`](featurebynodetype.md#book)  [`sentence`](featurebynodetype.md#sentence)  [`group`](featurebynodetype.md#group)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`word`](featurebynodetype.md#word) 
+[`String`](featuresbydatatype.md#string)|[`Node`](featuresbytype.md#node)| [`book`](featuresbynodetype.md#book)  [`sentence`](featuresbynodetype.md#sentence)  [`group`](featuresbynodetype.md#group)  [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`word`](featuresbynodetype.md#word) 
 ## Description
 book name (abbreviated) from ref attribute in xml
 ## Feature Values
-### Frequency for nodetype [book](featurebynodetype.md#book)
+### Frequency for nodetype [book](featuresbynodetype.md#book)
 Value|Occurences
 ---|---
 1CO|1
@@ -19,59 +19,59 @@ Value|Occurences
 2PE|1
 2TH|1
 2TI|1
-### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
-LUK|2839
-MAT|2649
-JHN|2635
-ACT|2249
-MRK|1756
-1CO|1244
-REV|1190
-ROM|1044
-2CO|722
+LUK|2833
+MAT|2636
+JHN|2626
+ACT|2245
+MRK|1750
+1CO|1242
+REV|1183
+ROM|1036
+2CO|721
 HEB|612
-### Frequency for nodetype [group](featurebynodetype.md#group)
+### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
-ACT|1290
-LUK|1236
-MAT|1166
-REV|910
-JHN|885
-MRK|755
-1CO|432
-ROM|363
+ACT|1288
+LUK|1232
+MAT|1165
+REV|909
+JHN|882
+MRK|753
+1CO|431
+ROM|362
 HEB|325
-2CO|223
-### Frequency for nodetype [clause](featurebynodetype.md#clause)
+2CO|222
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
-LUK|4839
-MAT|4315
-ACT|4184
-JHN|3678
-MRK|2837
-REV|1771
-1CO|1475
-ROM|1380
-HEB|1036
-2CO|897
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+LUK|4880
+MAT|4364
+ACT|4237
+JHN|3699
+MRK|2860
+REV|1803
+1CO|1487
+ROM|1401
+HEB|1040
+2CO|909
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
-LUK|8914
-MAT|8130
-ACT|7723
-JHN|7198
-MRK|5348
-REV|3871
-1CO|3151
-ROM|2787
-HEB|1973
-2CO|1842
-### Frequency for nodetype [word](featurebynodetype.md#word)
+LUK|8945
+MAT|8165
+ACT|7770
+JHN|7207
+MRK|5363
+REV|3895
+1CO|3160
+ROM|2799
+HEB|1977
+2CO|1852
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 LUK|19456
@@ -86,4 +86,4 @@ HEB|4955
 2CO|4469
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

@@ -1,23 +1,27 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: appositioncontainer
 Data type|Feature type|Available for nodes
 ---|---|---
-[`Integer`](featurebydatatype.md#integer)|[`Node`](featurebytype.md#node)| [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase) 
+[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbytype.md#node)| [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`phrase`](featuresbynodetype.md#phrase)  [`subphrase`](featuresbynodetype.md#subphrase) 
 ## Description
 1 if it is an apposition container
 ## Feature Values
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
+Value|Occurences
+---|---
+1|62
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 1|1908
-### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 1|715
-### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
-1|1908
+1|1846
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

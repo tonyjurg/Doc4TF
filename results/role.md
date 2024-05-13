@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: role
 Data type|Feature type|Available for nodes
 ---|---|---
-[`String`](featurebydatatype.md#string)|[`Node`](featurebytype.md#node)| [`sentence`](featurebynodetype.md#sentence)  [`group`](featurebynodetype.md#group)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+[`String`](featuresbydatatype.md#string)|[`Node`](featuresbytype.md#node)| [`sentence`](featuresbynodetype.md#sentence)  [`group`](featuresbynodetype.md#group)  [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`phrase`](featuresbynodetype.md#phrase)  [`subphrase`](featuresbynodetype.md#subphrase)  [`word`](featuresbynodetype.md#word) 
 ## Description
 role
 ## Feature Values
-### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
 adv|2069
@@ -15,34 +15,32 @@ s|496
 apposition|478
 o2|104
 p|74
-aux|64
 io|62
 v|9
-### Frequency for nodetype [group](featurebynodetype.md#group)
+### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
 o|122
 s|115
 p|36
 adv|34
-aux|19
 io|16
 apposition|10
 o2|2
-### Frequency for nodetype [clause](featurebynodetype.md#clause)
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
 adv|3442
 o|2573
 apposition|972
 s|359
+aux|184
+v|167
 p|60
 o2|24
 topic|23
-aux|17
 io|4
-tail|2
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 adv|15981
@@ -55,7 +53,7 @@ v|405
 aux|351
 o2|218
 topic|23
-### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 v|24767
@@ -63,13 +61,13 @@ adv|16032
 s|10198
 o|9108
 p|3504
+vc|2593
 io|2576
 o2|229
-vc|10
-### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
-v|25163
+v|24996
 adv|16032
 s|10198
 o|9108
@@ -77,9 +75,9 @@ p|3504
 vc|2593
 io|2576
 apposition|979
-aux|956
+aux|872
 o2|229
-### Frequency for nodetype [word](featurebynodetype.md#word)
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 v|24767
@@ -94,4 +92,4 @@ o2|141
 apposition|10
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

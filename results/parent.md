@@ -1,39 +1,39 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: parent
 Data type|Feature type|Available for nodes
 ---|---|---
-[`String`](featurebydatatype.md#string)|[`Edge`](featurebytype.md#edge)| [`sentence`](featurebynodetype.md#sentence)  [`group`](featurebynodetype.md#group)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+[`String`](featuresbydatatype.md#string)|[`Edge`](featuresbytype.md#edge)| [`sentence`](featuresbynodetype.md#sentence)  [`group`](featuresbynodetype.md#group)  [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`phrase`](featuresbynodetype.md#phrase)  [`subphrase`](featuresbynodetype.md#subphrase)  [`word`](featuresbynodetype.md#word) 
 ## Description
 parent relationship between words
 ## Feature Values
-### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
-Link|19767
-### Frequency for nodetype [group](featurebynodetype.md#group)
+Link|19703
+### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
-Link|8964
-### Frequency for nodetype [clause](featurebynodetype.md#clause)
+Link|8945
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
-Link|30479
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+Link|30814
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 Link|106867
-### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
-Link|66424
-### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+Link|69007
+### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
-Link|66424
-### Frequency for nodetype [word](featurebynodetype.md#word)
+Link|69007
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 Link|551116
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

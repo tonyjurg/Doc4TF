@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: function
 Data type|Feature type|Available for nodes
 ---|---|---
-[`String`](featurebydatatype.md#string)|[`Node`](featurebytype.md#node)| [`sentence`](featurebynodetype.md#sentence)  [`clause`](featurebynodetype.md#clause)  [`wg`](featurebynodetype.md#wg)  [`phrase`](featurebynodetype.md#phrase)  [`subphrase`](featurebynodetype.md#subphrase)  [`word`](featurebynodetype.md#word) 
+[`String`](featuresbydatatype.md#string)|[`Node`](featuresbytype.md#node)| [`sentence`](featuresbynodetype.md#sentence)  [`clause`](featuresbynodetype.md#clause)  [`wg`](featuresbynodetype.md#wg)  [`phrase`](featuresbynodetype.md#phrase)  [`subphrase`](featuresbynodetype.md#subphrase)  [`word`](featuresbynodetype.md#word) 
 ## Description
 this is XML attribute function
 ## Feature Values
-### Frequency for nodetype [sentence](featurebynodetype.md#sentence)
+### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
 Pred-Obj|51
@@ -19,7 +19,7 @@ Subj-Cmpl|23
 Pred-Obj-Cmpl|22
 Subj-Pred-Obj|20
 Pred-Obj-Subj|19
-### Frequency for nodetype [clause](featurebynodetype.md#clause)
+### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
 Pred-Obj|2675
@@ -32,7 +32,7 @@ Pred-Subj|603
 Pred-Obj-Cmpl|596
 Subj-PreC-PreC|595
 PreC-PreC|554
-### Frequency for nodetype [wg](featurebynodetype.md#wg)
+### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 Cmpl|11056
@@ -40,35 +40,38 @@ Subj|5740
 Objc|4524
 Pred-Obj|2726
 Pred-Cmpl|1909
-PreC|1610
+PreC|1685
 Cmpl-Pred|1185
 Obj-Pred|1077
 Cmpl-Pred-Obj|684
 Subj-Pred|639
-### Frequency for nodetype [phrase](featurebynodetype.md#phrase)
+### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 Pred|24767
-Cmpl|18608
+Cmpl|13012
 Subj|10198
 Objc|9337
-PreC|3514
-### Frequency for nodetype [subphrase](featurebynodetype.md#subphrase)
+PreC|6097
+Adv|5596
+### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
 Pred|24767
-Cmpl|18608
+Cmpl|13012
 Subj|10198
 Objc|9337
-PreC|3514
-### Frequency for nodetype [word](featurebynodetype.md#word)
+PreC|6097
+Adv|5596
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 Pred|24767
-Cmpl|7552
+Adv|5596
 Objc|4813
+PreC|4487
 Subj|4458
-PreC|1904
+Cmpl|1956
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

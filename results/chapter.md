@@ -1,12 +1,12 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/master/tf) (version 0.5.5)
+N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
 # Feature: chapter
 Data type|Feature type|Available for nodes
 ---|---|---
-[`Integer`](featurebydatatype.md#integer)|[`Node`](featurebytype.md#node)| [`chapter`](featurebynodetype.md#chapter)  [`verse`](featurebynodetype.md#verse)  [`word`](featurebynodetype.md#word) 
+[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbytype.md#node)| [`chapter`](featuresbynodetype.md#chapter)  [`verse`](featuresbynodetype.md#verse)  [`word`](featuresbynodetype.md#word) 
 ## Description
 chapter number, from ref attribute in xml
 ## Feature Values
-### Frequency for nodetype [chapter](featurebynodetype.md#chapter)
+### Frequency for nodetype [chapter](featuresbynodetype.md#chapter)
 Value|Occurences
 ---|---
 1|27
@@ -19,7 +19,7 @@ Value|Occurences
 8|10
 9|10
 10|10
-### Frequency for nodetype [verse](featurebynodetype.md#verse)
+### Frequency for nodetype [verse](featuresbynodetype.md#verse)
 Value|Occurences
 ---|---
 1|691
@@ -32,7 +32,7 @@ Value|Occurences
 9|356
 7|354
 10|348
-### Frequency for nodetype [word](featurebynodetype.md#word)
+### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 1|11685
@@ -47,4 +47,4 @@ Value|Occurences
 12|6213
  
 
-Created on Feb. 20, 2024 using [Doc4TF  version 0.3 (Jan. 24, 2024)](https://github.com/tonyjurg/Doc4TF) 
+Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
