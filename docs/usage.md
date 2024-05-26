@@ -1,6 +1,6 @@
 ## Using Doc4TF
 
-Since Doc4TF is implemented as a Jupyter notebook, you will need an environment capable of running Jupyter notebooks. As this tool is intended to be used alongside Text-Fabric, it's likely that you have already set up such an environment. If you haven't done so yet, a good option is to install [Anaconda](https://www.anaconda.com/). Text-Fabric requires at least Python version 3.7.0, so any anaconda navigator from version [5.3.0 (Sept 28, 2018)](https://docs.anaconda.com/free/anaconda/release-notes/#anaconda-5-3-0-sept-28-2018) upwards, would suffice.
+Since Doc4TF is implemented as a Jupyter notebook, you will need an environment capable of running Jupyter notebooks. As this tool is intended to be used alongside Text-Fabric, it's likely that you have already set up such an environment. If you haven't done so yet, a good option is to install [Anaconda](https://www.anaconda.com/). Text-Fabric requires at least [Python version 3.7.0](https://annotation.github.io/text-fabric/tf/about/install.html), so any Anaconda Navigator from version [5.3.0 (Sept 28, 2018)](https://docs.anaconda.com/free/anaconda/release-notes/#anaconda-5-3-0-sept-28-2018) upwards, would suffice.
 
 Note that Your environment should (for obvious reasons) include the Python package `Text-Fabric`. If not installed yet, it can be installed using `pip`. More details on installing the Text-Fabric package can be found in [tf.about.install](https://annotation.github.io/text-fabric/tf/about/install.html).
 
