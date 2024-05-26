@@ -13,4 +13,4 @@ To start using Doc4TF, you first need to download this [Jupyter Notebook file](h
 
 The output of the tool consists of a set of markdown which is the standard file format used for regular Text-Fabric feature documentation. To browse these files using a standard web browser, they need to undergo post-processing. One method is to transfer the files to a GitHub repository, which allows any browser to view the post-processed files. It is also possible to browse markdown files directly in your browser after installing a browser extension like [markdown viewer](https://github.com/simov/markdown-viewer). The script can also create a set of HTML files that can be stored on a local drive and browsed using any webbrowser.
 
-An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featurebynodetype.md). 
+An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featuresbynodetype.md). 
