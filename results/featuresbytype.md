@@ -1,4 +1,4 @@
-N1904 Greek New Testament <a href="https://github.com/saulocantanhede/tfgreek2">saulocantanhede/tfgreek2 - 0.5.7</a>
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
 # Overview features per type
 ## Node
 
@@ -70,4 +70,4 @@ Feature|Datatype|Available on nodes|Description|Examples
 [`subjref`](subjref.md#readme)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |number of subject referent|`Link`
 
 
-Created on May. 13, 2024 using [Doc4TF version 0.5 (May. 13, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb)
+Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb)
