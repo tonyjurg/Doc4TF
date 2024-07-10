@@ -1,4 +1,4 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
 # Feature: parent
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,31 +9,45 @@ parent relationship between words
 ### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
-Link|19703
-### Frequency for nodetype [group](featuresbynodetype.md#group)
+Link|8011
+
+Total frequency of feature: 8011.
+ ### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
 Link|8945
-### Frequency for nodetype [clause](featuresbynodetype.md#clause)
+
+Total frequency of feature: 8945.
+ ### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
-Link|30814
-### Frequency for nodetype [wg](featuresbynodetype.md#wg)
+Link|42506
+
+Total frequency of feature: 42506.
+ ### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 Link|106867
-### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
+
+Total frequency of feature: 106867.
+ ### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 Link|69007
-### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
+
+Total frequency of feature: 69007.
+ ### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
 Link|69007
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Total frequency of feature: 69007.
+ ### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 Link|551116
- 
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
+Total frequency of feature: 551116.
+  
+
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

@@ -1,4 +1,4 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
 # Feature: bookshort
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -19,20 +19,24 @@ Value|Occurences
 2PE|1
 2TH|1
 2TI|1
-### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
+
+Total frequency of feature: 27. Note: table truncated.
+ ### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
-LUK|2833
-MAT|2636
-JHN|2626
-ACT|2245
-MRK|1750
-1CO|1242
-REV|1183
-ROM|1036
-2CO|721
-HEB|612
-### Frequency for nodetype [group](featuresbynodetype.md#group)
+LUK|1150
+MAT|1118
+JHN|1027
+ACT|878
+MRK|723
+1CO|519
+REV|462
+ROM|460
+2CO|249
+HEB|241
+
+Total frequency of feature: 7939. Note: table truncated.
+ ### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
 ACT|1288
@@ -45,20 +49,24 @@ MRK|753
 ROM|362
 HEB|325
 2CO|222
-### Frequency for nodetype [clause](featuresbynodetype.md#clause)
+
+Total frequency of feature: 8945. Note: table truncated.
+ ### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
-LUK|4880
-MAT|4364
-ACT|4237
-JHN|3699
-MRK|2860
-REV|1803
-1CO|1487
-ROM|1401
-HEB|1040
-2CO|909
-### Frequency for nodetype [wg](featuresbynodetype.md#wg)
+LUK|6563
+MAT|5882
+ACT|5604
+JHN|5298
+MRK|3887
+REV|2524
+1CO|2210
+ROM|1977
+HEB|1411
+2CO|1381
+
+Total frequency of feature: 42506. Note: table truncated.
+ ### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 LUK|8945
@@ -71,7 +79,9 @@ REV|3895
 ROM|2799
 HEB|1977
 2CO|1852
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Total frequency of feature: 59390. Note: table truncated.
+ ### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 LUK|19456
@@ -84,6 +94,8 @@ ROM|7100
 1CO|6820
 HEB|4955
 2CO|4469
- 
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
+Total frequency of feature: 137779. Note: table truncated.
+  
+
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

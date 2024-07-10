@@ -1,4 +1,4 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
 # Feature: rule
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,35 +9,41 @@ syntactical rule
 ### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
-Conj-CL|5574
-CLaCL|3505
-sub-CL|3015
-DetCL|1950
-ClCl|1552
-that-VP|886
-ClCl2|882
-PtclCL|468
-AdvpCL|56
+Conj-CL|5424
+CLaCL|395
+ClCl|223
+ClCl2|102
+PtclCL|84
 V-O|51
-### Frequency for nodetype [group](featuresbynodetype.md#group)
+sub-CL|47
+ADV-V|37
+ADV-V-O|33
+S-P|29
+
+Total frequency of feature: 7173. Note: table truncated.
+ ### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
 NP-CL|856
 CL-NP|14
-### Frequency for nodetype [clause](featuresbynodetype.md#clause)
+
+Total frequency of feature: 870.
+ ### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
+CLaCL|3434
+sub-CL|2982
 V2CL|2842
 V-O|2674
+DetCL|2011
 V-ADV|1675
+ClCl|1356
 ADV-V|1100
 O-V|1064
-Np2CL|780
-ADV-V-O|628
-S-V|626
-V-S|603
-V-O-ADV|531
-### Frequency for nodetype [wg](featuresbynodetype.md#wg)
+that-VP|888
+
+Total frequency of feature: 37786. Note: table truncated.
+ ### Frequency for nodetype [wg](featuresbynodetype.md#wg)
 Value|Occurences
 ---|---
 DetNP|15696
@@ -50,7 +56,9 @@ V2CL|2843
 V-O|2725
 DetCL|2011
 Np-Appos|1908
-### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
+
+Total frequency of feature: 93234. Note: table truncated.
+ ### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 PrepNp|9512
@@ -63,7 +71,9 @@ AdvpNp|520
 DetAdj|470
 AdjpNp|455
 All-NP|412
-### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
+
+Total frequency of feature: 22930. Note: table truncated.
+ ### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
 DetNP|15696
@@ -76,6 +86,8 @@ NpaNp|1351
 DetAdj|1282
 All-NP|846
 NpPp|676
- 
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
+Total frequency of feature: 47405. Note: table truncated.
+  
+
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

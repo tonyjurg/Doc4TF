@@ -1,4 +1,4 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
 # Feature: person
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -9,21 +9,27 @@ grammatical person
 ### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
-third|12474
-second|3447
-first|2886
-### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
-Value|Occurences
----|---
-third|12747
-second|3729
-first|2943
-### Frequency for nodetype [word](featuresbynodetype.md#word)
-Value|Occurences
----|---
-third|12747
-second|3729
-first|2943
- 
+p3|12474
+p2|3447
+p1|2886
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
+Total frequency of feature: 18807.
+ ### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
+Value|Occurences
+---|---
+p3|12747
+p2|3729
+p1|2943
+
+Total frequency of feature: 19419.
+ ### Frequency for nodetype [word](featuresbynodetype.md#word)
+Value|Occurences
+---|---
+p3|12747
+p2|3729
+p1|2943
+
+Total frequency of feature: 19419.
+  
+
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 

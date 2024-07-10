@@ -1,8 +1,9 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
-# Overview features per nodetype
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
+# Overview features by node type
+Overview by [name](featuresbyname.md), [data type](featuresbydatatype.md), or [feature type](featuresbytype.md).
 ## book
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`book`](book.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (full name)|`Acts` `Colossians` `Ephesians` `Galatians`
 [`bookshort`](bookshort.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (abbreviated) from ref attribute in xml|`1CO` `1JN` `1PE` `1TH`
@@ -10,20 +11,20 @@ Feature|Featuretype|Datatype|Description|Examples
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 ## chapter
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`book`](book.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (full name)|`Acts` `Colossians` `Ephesians` `Galatians`
 [`chapter`](chapter.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|chapter number, from ref attribute in xml|`1` `2` `3` `4`
 ## verse
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`book`](book.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (full name)|`Acts` `Colossians` `Ephesians` `Galatians`
 [`chapter`](chapter.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|chapter number, from ref attribute in xml|`1` `2` `3` `4`
 [`verse`](verse.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|verse number, from ref attribute in xml|`1` `2` `3` `4`
 ## sentence
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`articular`](articular.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if the sentence, group, clause, phrase or wg has an article|`1`
 [`book`](book.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (full name)|`Acts` `Colossians` `Ephesians` `Galatians`
@@ -33,31 +34,27 @@ Feature|Featuretype|Datatype|Description|Examples
 [`cltype`](cltype.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|clause type|`Verbless` `VerbElided` `Minor`
 [`crule`](crule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|clause rule (from xml attribute Rule)|`ClCl` `ClCl2`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
-[`junction`](junction.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|type of junction|`coordinate` `subordinate`
-[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|node id (as in the XML source data|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
+[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|node id (as in the XML source data)|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 ## group
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`articular`](articular.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if the sentence, group, clause, phrase or wg has an article|`1`
 [`book`](book.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (full name)|`Acts` `Colossians` `Ephesians` `Galatians`
 [`bookshort`](bookshort.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|book name (abbreviated) from ref attribute in xml|`1CO` `1JN` `1PE` `1TH`
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
-[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
+[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical type (on sentence, group, clause or phrase)|`conjuncted` `apposition`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 ## clause
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`appositioncontainer`](appositioncontainer.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if it is an apposition container|`1`
 [`articular`](articular.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if the sentence, group, clause, phrase or wg has an article|`1`
@@ -69,17 +66,16 @@ Feature|Featuretype|Datatype|Description|Examples
 [`crule`](crule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|clause rule (from xml attribute Rule)|`ClCl` `ClCl2`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
 [`junction`](junction.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|type of junction|`coordinate` `subordinate`
-[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|node id (as in the XML source data|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
+[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|node id (as in the XML source data)|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
-[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
+[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical type (on sentence, group, clause or phrase)|`conjuncted` `apposition`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 ## wg
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`appositioncontainer`](appositioncontainer.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if it is an apposition container|`1`
 [`articular`](articular.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if the sentence, group, clause, phrase or wg has an article|`1`
@@ -91,18 +87,17 @@ Feature|Featuretype|Datatype|Description|Examples
 [`crule`](crule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|clause rule (from xml attribute Rule)|`ClCl` `ClCl2`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
 [`junction`](junction.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|type of junction|`coordinate` `subordinate`
-[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|node id (as in the XML source data|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
+[`nodeid`](nodeid.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|node id (as in the XML source data)|`400040070010120` `400040100010070` `400050030010120` `400050040010060`
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
 [`rela`](rela.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute rela|`Appo`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
-[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
+[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical type (on sentence, group, clause or phrase)|`conjuncted` `apposition`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 ## phrase
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`after`](after.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|material after the end of the word|` ` `,` `.` `·`
 [`appositioncontainer`](appositioncontainer.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if it is an apposition container|`1`
@@ -117,7 +112,6 @@ Feature|Featuretype|Datatype|Description|Examples
 [`framespec`](framespec.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute framespec|`A0:n00000000000` `A1:n00000000000` `A0:n47010001004` `A0:n46003022002`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
 [`gender`](gender.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical gender|`masculine` `neuter` `feminine`
-[`gloss`](gloss.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|short translation|`not` `you` `is` `Him`
 [`id`](id.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|xml id|`n40001002001` `n40001002002` `n40001002005` `n40001002007`
 [`junction`](junction.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|type of junction|`coordinate` `subordinate`
 [`lemma`](lemma.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|lexical lemma|`αὐτός` `λέγω` `εἰμί` `σύ`
@@ -130,13 +124,12 @@ Feature|Featuretype|Datatype|Description|Examples
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`number`](number.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical number|`singular` `plural`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`third` `second` `first`
+[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`p3` `p2` `p1`
 [`punctuation`](punctuation.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute punctuation|` ` `,` `.` `·`
 [`ref`](ref.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|biblical reference with word counting|`1CO 10:1!1` `1CO 10:1!15` `1CO 10:1!17` `1CO 10:1!2`
 [`referent`](referent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|number of referent|`n40005001015` `n43014023002` `n43013023006 n43013037003 n43014005003 n43014008003 n43014022003` `n43017001003`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
 [`sp`](sp.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|part-of-speach|`verb` `pron` `advb` `subs`
 [`strong`](strong.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|strong number|`846` `3004` `1510` `4771`
 [`subjrefspec`](subjrefspec.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute subjrefspec|`n46003022002` `n66001009002` `n45001001001` `n47010001004`
@@ -144,15 +137,15 @@ Feature|Featuretype|Datatype|Description|Examples
 [`text`](text.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|the text of a word|`αὐτῷ` `μὴ` `οὐκ` `εἶπεν`
 [`trans`](trans.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|translation of the word surface text according to the Berean Interlinear Bible|`not` `you` `is` `Him`
 [`translit`](translit.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|transliteration of the word surface text|`me` `estin` `auton` `auto`
-[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical type (on sentence, group, clause or phrase)|`conjuncted` `apposition`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 [`unaccent`](unaccent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters without accents and diacritical markers|`εστιν` `αυτον` `μη` `αυτω`
 [`unicode`](unicode.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters plus material after it|`μὴ` `οὐκ` `αὐτῷ` `εἶπεν`
 [`variant`](variant.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute variant|`2` `1`
 [`voice`](voice.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|verbal voice|`active` `passive` `middle` `middlepassive`
 ## subphrase
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`after`](after.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|material after the end of the word|` ` `,` `.` `·`
 [`appositioncontainer`](appositioncontainer.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|1 if it is an apposition container|`1`
@@ -167,7 +160,6 @@ Feature|Featuretype|Datatype|Description|Examples
 [`framespec`](framespec.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute framespec|`A0:n00000000000` `A1:n00000000000` `A0:n47010001004` `A0:n46003022002`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
 [`gender`](gender.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical gender|`masculine` `neuter` `feminine`
-[`gloss`](gloss.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|short translation|`not` `you` `is` `Him`
 [`id`](id.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|xml id|`n40001002001` `n40001002002` `n40001002005` `n40001002007`
 [`junction`](junction.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|type of junction|`coordinate` `subordinate`
 [`lemma`](lemma.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|lexical lemma|`αὐτός` `λέγω` `εἰμί` `σύ`
@@ -180,14 +172,13 @@ Feature|Featuretype|Datatype|Description|Examples
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`number`](number.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical number|`singular` `plural`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`third` `second` `first`
+[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`p3` `p2` `p1`
 [`punctuation`](punctuation.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute punctuation|` ` `,` `.` `·`
 [`ref`](ref.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|biblical reference with word counting|`1CO 10:1!1` `1CO 10:1!15` `1CO 10:1!17` `1CO 10:1!2`
 [`referent`](referent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|number of referent|`n40005001015` `n43014023002` `n43013023006 n43013037003 n43014005003 n43014008003 n43014022003` `n43017001003`
 [`rela`](rela.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute rela|`Appo`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `sub-CL` `DetCL`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
+[`rule`](rule.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical rule|`Conj-CL` `CLaCL` `ClCl` `ClCl2`
 [`sp`](sp.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|part-of-speach|`verb` `pron` `advb` `subs`
 [`strong`](strong.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|strong number|`846` `3004` `1510` `4771`
 [`subjrefspec`](subjrefspec.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute subjrefspec|`n46003022002` `n66001009002` `n45001001001` `n47010001004`
@@ -195,15 +186,15 @@ Feature|Featuretype|Datatype|Description|Examples
 [`text`](text.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|the text of a word|`αὐτῷ` `μὴ` `οὐκ` `εἶπεν`
 [`trans`](trans.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|translation of the word surface text according to the Berean Interlinear Bible|`not` `you` `is` `Him`
 [`translit`](translit.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|transliteration of the word surface text|`me` `estin` `auton` `auto`
-[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute typ|`conjuncted` `apposition`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`typ`](typ.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|syntactical type (on sentence, group, clause or phrase)|`conjuncted` `apposition`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 [`unaccent`](unaccent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters without accents and diacritical markers|`εστιν` `αυτον` `μη` `αυτω`
 [`unicode`](unicode.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters plus material after it|`μὴ` `οὐκ` `αὐτῷ` `εἶπεν`
 [`variant`](variant.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute variant|`2` `1`
 [`voice`](voice.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|verbal voice|`active` `passive` `middle` `middlepassive`
 ## word
 
-Feature|Featuretype|Datatype|Description|Examples
+Feature|Feature type|Data type|Description|Examples
 ---|---|---|---|---
 [`after`](after.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|material after the end of the word|` ` `,` `.` `·`
 [`before`](before.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute before|`—` `(` `[[`
@@ -220,7 +211,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`framespec`](framespec.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute framespec|`A0:n00000000000` `A1:n00000000000` `A0:n47010001004` `A0:n46003022002`
 [`function`](function.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute function|`Pred-Obj` `Subj-PreC-PreC` `Cmpl-Pred` `Cmpl-Pred-Obj`
 [`gender`](gender.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical gender|`masculine` `neuter` `feminine`
-[`gloss`](gloss.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|short translation|`not` `you` `is` `Him`
+[`gloss`](gloss.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|English gloss (BGVB)|`the` `and, also, likewise` `he, she, it, himself, herself, itself; even, very; same` `you`
 [`id`](id.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|xml id|`n40001002001` `n40001002002` `n40001002005` `n40001002007`
 [`lemma`](lemma.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|lexical lemma|`αὐτός` `λέγω` `εἰμί` `σύ`
 [`lemmatranslit`](lemmatranslit.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|transliteration of the word lemma|`autos` `lego` `eimi` `su`
@@ -232,13 +223,12 @@ Feature|Featuretype|Datatype|Description|Examples
 [`num`](num.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|generated number (not in xml): book: (Matthew=1, Mark=2, ..., Revelation=27); sentence: numbered per chapter; word: numbered per verse.|`1` `2` `3` `4`
 [`number`](number.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical number|`singular` `plural`
 [`parent`](parent.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|parent relationship between words|`Link`
-[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`third` `second` `first`
+[`person`](person.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|grammatical person|`p3` `p2` `p1`
 [`punctuation`](punctuation.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute punctuation|` ` `,` `.` `·`
 [`ref`](ref.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|biblical reference with word counting|`1CO 10:1!1` `1CO 10:1!15` `1CO 10:1!17` `1CO 10:1!2`
 [`referent`](referent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|number of referent|`n40005001015` `n43014023002` `n43013023006 n43013037003 n43014005003 n43014008003 n43014022003` `n43017001003`
 [`rela`](rela.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute rela|`Appo`
-[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`adv` `o` `s` `apposition`
-[`sibling`](sibling.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`Integer`](featuresbydatatype.md#Integer)|this is XML attribute sibling|`1` `2` `3` `4`
+[`role`](role.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|role|`o` `s` `p` `adv`
 [`sp`](sp.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|part-of-speach|`verb` `pron` `advb` `subs`
 [`strong`](strong.md#readme)|[`Node`](featuresbytype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|strong number|`846` `3004` `1510` `4771`
 [`subjref`](subjref.md#readme)|[`Edge`](featuresbytype.md#Edge)|[`String`](featuresbydatatype.md#String)|number of subject referent|`Link`
@@ -247,7 +237,7 @@ Feature|Featuretype|Datatype|Description|Examples
 [`text`](text.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|the text of a word|`αὐτῷ` `μὴ` `οὐκ` `εἶπεν`
 [`trans`](trans.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|translation of the word surface text according to the Berean Interlinear Bible|`not` `you` `is` `Him`
 [`translit`](translit.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|transliteration of the word surface text|`me` `estin` `auton` `auto`
-[`type`](type.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group` `apposition-group`
+[`typems`](typems.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|morphological type (on word), syntactical type (on sentence, group, clause, phrase or wg)|`wrapper-clause-scope` `group`
 [`unaccent`](unaccent.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters without accents and diacritical markers|`εστιν` `αυτον` `μη` `αυτω`
 [`unicode`](unicode.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|word in unicode characters plus material after it|`μὴ` `οὐκ` `αὐτῷ` `εἶπεν`
 [`variant`](variant.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|this is XML attribute variant|`2` `1`
@@ -255,4 +245,4 @@ Feature|Featuretype|Datatype|Description|Examples
 [`voice`](voice.md#readme)|[`Node`](featuresbytype.md#Node)|[`String`](featuresbydatatype.md#String)|verbal voice|`active` `passive` `middle` `middlepassive`
 
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb)
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb)

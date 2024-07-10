@@ -1,4 +1,4 @@
-Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.7)
+Doc4TF pages for [Nestle 1904 Greek New Testament](https://github.com/saulocantanhede/tfgreek2/tree/main/tf) (version 0.5.9)
 # Feature: num
 Data type|Feature type|Available for nodes
 ---|---|---
@@ -19,20 +19,9 @@ Value|Occurences
 8|1
 9|1
 10|1
-### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
-Value|Occurences
----|---
-1|52
-3|38
-2|34
-4|31
-6|31
-15|31
-18|30
-5|29
-9|29
-11|29
-### Frequency for nodetype [group](featuresbynodetype.md#group)
+
+Total frequency of feature: 27. Note: table truncated.
+ ### Frequency for nodetype [sentence](featuresbynodetype.md#sentence)
 Value|Occurences
 ---|---
 1|27
@@ -45,33 +34,54 @@ Value|Occurences
 8|27
 9|27
 10|27
-### Frequency for nodetype [clause](featuresbynodetype.md#clause)
+
+Total frequency of feature: 8011. Note: table truncated.
+ ### Frequency for nodetype [group](featuresbynodetype.md#group)
 Value|Occurences
 ---|---
-36|29
-13|28
-16|28
-37|28
-40|28
-42|28
+1|27
+2|27
+3|27
+4|27
 5|27
+6|27
 7|27
 8|27
+9|27
 10|27
-### Frequency for nodetype [wg](featuresbynodetype.md#wg)
+
+Total frequency of feature: 8945. Note: table truncated.
+ ### Frequency for nodetype [clause](featuresbynodetype.md#clause)
 Value|Occurences
 ---|---
-1|116
-4|99
-17|97
-7|96
-13|96
-15|96
-30|96
-8|94
-5|93
-20|93
-### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
+24|27
+33|27
+19|26
+27|26
+41|26
+68|26
+73|26
+7|25
+10|25
+11|25
+
+Total frequency of feature: 42506. Note: table truncated.
+ ### Frequency for nodetype [wg](featuresbynodetype.md#wg)
+Value|Occurences
+---|---
+1|88
+4|72
+30|71
+17|70
+15|69
+7|68
+13|68
+8|67
+27|67
+50|67
+
+Total frequency of feature: 106868. Note: table truncated.
+ ### Frequency for nodetype [phrase](featuresbynodetype.md#phrase)
 Value|Occurences
 ---|---
 1|23
@@ -84,7 +94,9 @@ Value|Occurences
 235|20
 77|19
 89|19
-### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
+
+Total frequency of feature: 69007. Note: table truncated.
+ ### Frequency for nodetype [subphrase](featuresbynodetype.md#subphrase)
 Value|Occurences
 ---|---
 159|41
@@ -97,7 +109,9 @@ Value|Occurences
 79|38
 129|38
 155|38
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Total frequency of feature: 185185. Note: table truncated.
+ ### Frequency for nodetype [word](featuresbynodetype.md#word)
 Value|Occurences
 ---|---
 1|7943
@@ -110,6 +124,8 @@ Value|Occurences
 8|7643
 9|7441
 10|7166
- 
 
-Created on Jun. 16, 2024 using [Doc4TF version 0.5.1 (June 16, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
+Total frequency of feature: 137779. Note: table truncated.
+  
+
+Created on Jul. 10, 2024 using [Doc4TF version 0.5.2 (July 10, 2024)](https://github.com/tonyjurg/Doc4TF/blob/main/CreateFeatureDoc.ipynb) 
