@@ -5,7 +5,12 @@ Ideally, a comprehensive documentation set should be created as part of developi
   * Structural details regarding nodes (e.g., their names) and features (e.g., name, data type, feature type, and value frequencies)
   * Descriptive details regarding features. The extent and correctnes of these descriptions depend - for obvious reasons- upon the embedded meta data.
 
-The pages produced by Doc4TF can serve as a robust starting point for the development of a brand new documentation set or as validation for an existing one. One major advantage is that the resulting documentation set is fully hyperlinked, a task that can be laborious if done manually. The following image shows the relation between the overview and the feature description pages.
+The pages produced by Doc4TF can serve as a robust starting point for the development of a brand new documentation set or as validation for an existing one. One major advantage is that the resulting documentation set is fully hyperlinked, a task that can be laborious if done manually. The set of pages can be devided into the following two types:
+
+  * A set of pages (one for each feature) providing details regarding a specific Text-Fabric feature.
+  * Four index pages with links to the individual pages sorted according to feature name, node type (e.g. word, sentence), data type (integer, string) and feature type (node or edge features).  
+
+The following image shows the relation between the overview and the feature description pages.
 
 <img src="assets/images/Doc4TF_overview.jpg">
 
