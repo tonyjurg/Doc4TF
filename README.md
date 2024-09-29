@@ -25,6 +25,10 @@ Alternatively, the script can also generate a set of HTML files. These files can
 
 An example documentation set created by this script is found at the [results directory](https://github.com/tonyjurg/Doc4TF/blob/main/results/featurebynodetype.md). 
 
+# Determining the delta between two TF datasets
+
+An additional tool has been created to identify changes between two Text-Fabric datasets, including differences in features, feature values, node types, and ranges. The tool is available as a Jupyter Notebook: [determineDeltaBetweenVersions.ipynb](tools/determineDeltaBetweenVersions.ipynb). It generates a dynamic report that allows for in-depth exploration and can be downloaded as an HTML file. This report can be used to quickly identify necessary documentation updates. It also facilitates regression testing of code updates to detect any adverse effects.
+
 # About Text-Fabric
 
 Text-Fabric is a powerful Python library and framework designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. It provides a comprehensive set of tools for processing and querying structured text data efficiently. Text-Fabric was developed by [Dirk Roorda](https://github.com/dirkroorda). The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
