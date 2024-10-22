@@ -5,4 +5,5 @@ plugins:
 
 title: Doc4TF
 description: Python script running in Jupyter Notebook to create feature documentation set for Text-Fabric.
+keywords: "Text-Fabric,feature documentation,dataset exploration"
 show_downloads: true
