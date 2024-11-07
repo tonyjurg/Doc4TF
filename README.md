@@ -1,4 +1,4 @@
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12705876.svg)](https://doi.org/10.5281/zenodo.12705876) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12705876.svg)](https://doi.org/10.5281/zenodo.12705876) [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/tonyjurg/Doc4TF)](https://archive.softwareheritage.org/browse/origin/https://github.com/tonyjurg/Doc4TF) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 <img src="images/DOC4TF.png" width="100" height="100" style="float: right;">
 
