@@ -14,7 +14,14 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 #### Under the following terms:
 
- * **Attribution**
-   * When deriving software or a dataset, attribute the work as follows: "Doc4TF, available at https://github.com/tonyjurg/Doc4TF". You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+**Attribution**
+   
+When deriving software or a dataset, attribute the work in a reasonable manner by referencing GitHub or the associated DOI. Ensure the attribution does not imply that the licensor endorses you or your use. For example:
+
+> Jurg, T. (2024). *Doc4TF*. Zenodo. https://doi.org/10.5281/zenodo.12705876
+
+or:
+
+> Jurg, T. (2024). *Doc4TF*. Available on GitHub: https://github.com/tonyjurg/Doc4TF
       
 **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
