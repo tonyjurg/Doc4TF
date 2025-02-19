@@ -32,3 +32,18 @@ An additional tool has been created to identify changes between two Text-Fabric 
 # About Text-Fabric
 
 Text-Fabric is a powerful Python library and framework designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. It provides a comprehensive set of tools for processing and querying structured text data efficiently. Text-Fabric was developed by [Dirk Roorda](https://github.com/dirkroorda). The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
+
+# BibTeX Citation
+
+```bibtex
+@software{jurg_2024_Doc4TF,
+  author       = {Tony Jurg},
+  title        = {Github - tonyjurg/Doc4TF: Automatic generate Text-Fabric documentation},
+  month        = Jul,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {0.5.2},
+  doi          = {10.5281/zenodo.12705876},
+  url          = {https://doi.org/10.5281/zenodo.12705876}
+}
+```
