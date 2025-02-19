@@ -36,11 +36,11 @@ Text-Fabric is a powerful Python library and framework designed to facilitate th
 # BibTeX Citation
 
 ```bibtex
-@software{Jurg_Doc4TF_2024,
+@software{Jurg_Doc4TF_-_Automatic_2024,
 author = {Jurg, Tony},
 doi = {10.5281/zenodo.12705876},
 month = jul,
-title = {{Doc4TF}},
+title = {{Doc4TF - Automatic generation of Text-Fabric feature documentation}},
 url = {https://github.com/tonyjurg/Doc4TF},
 version = {0.5.2},
 year = {2024}
