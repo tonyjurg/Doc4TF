@@ -49,4 +49,4 @@ year = {2024}
 
 # Descriptive document (PDF)
 
-[Doc4TF - Automatic Generation of Text-Fabric Documentation](https://github.com/tonyjurg/Doc4TF/blob/main/Doc4TF_Automatic_Generation_of_Text_Fabric_Documentation.pdf?raw=1).
+[Doc4TF - Automatic Generation of Text-Fabric Documentation](https://github.com/tonyjurg/Doc4TF/blob/main/Doc4TF_Automatic_Generation_of_Text_Fabric_Documentation.pdf).
