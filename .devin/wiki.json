@@ -1,0 +1,212 @@
+{
+  "repo_notes": [
+    {
+      "content": ""
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "High-level introduction to Doc4TF: what it is, why it exists, its key capabilities, and how the repository is organized. Links to all major child sections.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Project Background and Goals",
+      "purpose": "Explains the motivation for Doc4TF (documentation rot, manual hyperlinking burden), its design philosophy (data-driven, ETL pipeline), and the target audience (Text-Fabric dataset authors and researchers).",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Getting Started",
+      "purpose": "Step-by-step guide for new users: prerequisites (Python 3.7+, Jupyter, Text-Fabric), downloading the notebook, configuring key variables, and running the pipeline to produce the first documentation set.",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Core Architecture",
+      "purpose": "Overview of the Doc4TF system architecture: the ETL pipeline, the central featureDict data structure, and the two main tools. Links to child pages for each major component.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CreateFeatureDoc Notebook",
+      "purpose": "Deep dive into the primary notebook (CreateFeatureDoc.ipynb): configuration variables, the data ingestion phase, featureDict construction, sorting logic, cross-referencing/link generation, and file I/O helpers.",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Configuration and Output Formats",
+      "purpose": "Documents all user-facing configuration variables (resultLocation, typeOutput, tableLimit, customPageTitle, htmlStyle) and explains the Markdown vs. HTML output modes, including the handleSpace edge case.",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Feature Processing Pipeline",
+      "purpose": "Explains the internal processing functions: use(), processFeature(), getFeatureDescription(), setDataType(), the freqList frequency analysis pipeline, and the truncated-table mechanism.",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Version Delta Tool",
+      "purpose": "Covers the tools/determineDeltaBetweenVersions.ipynb notebook: its Load-Extract-Compare-Report lifecycle, the dual-API design, compare_feature_dicts logic, interval comparison, and the interactive HTML delta report.",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Generated Output",
+      "purpose": "Overview of the documentation artifacts produced by Doc4TF: the four index pages and the per-feature pages. Links to child pages describing the index structure and the sample results directory.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Index Pages",
+      "purpose": "Describes the four generated index pages (featuresbynodetype.md, featuresbyname.md, featuresbydatatype.md, featuresbytype.md): their structure, anchor-based cross-linking, and how they are regenerated.",
+      "parent": "Generated Output",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Per-Feature Documentation Pages",
+      "purpose": "Explains the anatomy of an individual feature page (e.g., lemma.md, morph.md): header metadata table, description section, per-node-type frequency tables, truncation notes, and footer provenance line. Uses the results/ directory as the canonical example set.",
+      "parent": "Generated Output",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Documentation Website (GitHub Pages)",
+      "purpose": "Overview of the Jekyll-based GitHub Pages site under docs/: theme, configuration, layout, and asset pipeline. Links to child pages for configuration and front-end details.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Jekyll Configuration",
+      "purpose": "Documents docs/_config.yml: site title, description, keywords, remote_theme (minimal@v0.2.0), plugins (jekyll-remote-theme, jekyll-seo-tag, jekyll-sitemap), and the show_downloads flag.",
+      "parent": "Documentation Website (GitHub Pages)",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Layout and Assets",
+      "purpose": "Covers docs/_layouts/default.html: the Liquid content injection point, navigation sidebar links (about, usage, legal, external paper, GitHub), SEO metadata, favicon assets, CSS/JS asset pipeline, and mobile scale-fix.",
+      "parent": "Documentation Website (GitHub Pages)",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Version History and Contributing",
+      "purpose": "Overview of the project's evolution, previous notebook versions, issue templates, and how to contribute. Links to child pages for version history and contribution guidelines.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Notebook Version History",
+      "purpose": "Traces the evolution of CreateFeatureDoc across versions 0.2 through 0.5.1 (stored in previous_versions/), and the delta tool's older_versions/. Highlights key changes between releases.",
+      "parent": "Version History and Contributing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Contributing and Issue Reporting",
+      "purpose": "Explains how to report bugs and request features using the GitHub issue templates (.github/ISSUE_TEMPLATE/), and general contribution guidelines.",
+      "parent": "Version History and Contributing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Legal and Citation",
+      "purpose": "Covers the CC BY 4.0 license, attribution requirements, DOI/Zenodo citation, and the 'as-is' warranty disclaimer.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "License (CC BY 4.0)",
+      "purpose": "Full explanation of the Creative Commons Attribution 4.0 International license: permitted actions (copy, modify, redistribute, build applications), attribution requirements, no-additional-restrictions clause, and liability disclaimer.",
+      "parent": "Legal and Citation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Citation and Academic Reference",
+      "purpose": "Documents how to cite Doc4TF in academic work using CITATION.cff, the Zenodo DOI (10.5281/zenodo.12705876), the associated Academia.edu paper, and the ORCID of the author.",
+      "parent": "Legal and Citation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Definitions of all codebase-specific terms, Text-Fabric domain concepts, abbreviations, and jargon that an onboarding engineer needs to understand Doc4TF. Each entry includes code pointers.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
