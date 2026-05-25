@@ -1,4 +1,4 @@
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12705876.svg)](https://doi.org/10.5281/zenodo.12705876)  [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%96-success.svg)](https://tonyjurg.github.io/Doc4TF/) [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/tonyjurg/Doc4TF)](https://archive.softwareheritage.org/browse/origin/https://github.com/tonyjurg/Doc4TF) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](images/zenodo.12705876.svg)](https://doi.org/10.5281/zenodo.12705876)  [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%96-success.svg)](https://tonyjurg.github.io/Doc4TF/) [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/tonyjurg/Doc4TF)](https://archive.softwareheritage.org/browse/origin/https://github.com/tonyjurg/Doc4TF) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tonyjurg/Doc4TF)
 
 <img src="images/DOC4TF.png" width="100" height="100" style="float: right;">
 
@@ -32,3 +32,21 @@ An additional tool has been created to identify changes between two Text-Fabric 
 # About Text-Fabric
 
 Text-Fabric is a powerful Python library and framework designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. It provides a comprehensive set of tools for processing and querying structured text data efficiently. Text-Fabric was developed by [Dirk Roorda](https://github.com/dirkroorda). The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
+
+# BibTeX Citation
+
+```bibtex
+@software{Jurg_Doc4TF_-_Automatic_2024,
+author = {Jurg, Tony},
+doi = {10.5281/zenodo.12705876},
+month = jul,
+title = {{Doc4TF - Automatic generation of Text-Fabric feature documentation}},
+url = {https://github.com/tonyjurg/Doc4TF},
+version = {0.5.2},
+year = {2024}
+}
+```
+
+# Descriptive document (PDF)
+
+[Doc4TF - Automatic Generation of Text-Fabric Documentation](https://github.com/tonyjurg/Doc4TF/blob/main/Doc4TF_Automatic_Generation_of_Text_Fabric_Documentation.pdf).
