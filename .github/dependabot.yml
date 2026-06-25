@@ -1,0 +1,19 @@
+version: 2
+updates:
+  # GitHub Actions (security-critical)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github_actions"
+
+  # Python / pip dependencies
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "python"
