@@ -42,7 +42,9 @@ jobs:
           - "3.11"
           - "3.12"
           - "3.13"
-          - "3.14"
+          # Text-Fabric's dependencies do not yet install on Python 3.14.
+          # Add 3.14 once the complete dependency stack publishes support.
+          # - "3.14"
 
     steps:
       - name: Checkout
